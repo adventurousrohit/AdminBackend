@@ -1,0 +1,2469 @@
+2022-03-21 12:40:43 error: [POST] /api/auth/social-login >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms
+2022-03-21 15:48:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m49[0m:[93m2[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m49[0m  {
+[7m  [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m49[0m:[93m2[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m49[0m  {
+[7m  [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 15:52:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m    []
+[7m  [0m [91m    ~[0m
+[96msrc/models/users.model.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m35[0m   },
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m    []
+[7m  [0m [91m    ~[0m
+[96msrc/models/users.model.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m35[0m   },
+[7m  [0m [91m  ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 15:52:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m   role: ,
+[7m  [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m   role: ,
+[7m  [0m [91m        ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 15:53:39 error: uncaughtException: slug is not defined
+ReferenceError: slug is not defined
+    at Object.<anonymous> (C:\rohit\typescript starter\src\models\users.model.ts:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-21 15:57:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m36[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m36[0m    }
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m36[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m36[0m    }
+[7m  [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 15:57:17 error: uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\rohit\typescript starter\src\models\users.model.ts:36:11)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-21 15:57:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     }
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m38[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     }
+[7m  [0m [91m    ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 15:57:26 error: uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\rohit\typescript starter\src\models\users.model.ts:36:11)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-21 15:57:38 error: uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\rohit\typescript starter\src\models\users.model.ts:34:11)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-21 15:59:02 error: uncaughtException: Roles is not defined
+ReferenceError: Roles is not defined
+    at Object.<anonymous> (C:\rohit\typescript starter\src\models\users.model.ts:35:11)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\middlewares\auth.middleware.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-21 16:14:36 error: uncaughtException: Unexpected token ';'
+C:\rohit\typescript starter\src\utils\helper.ts:201
+    async defaultEntry;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-03-21 16:30:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:30:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:30:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:30:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:30:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:30:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'from' expected.
+
+[7m5[0m import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
+[7m [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:31:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:36:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:36:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:37:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:38:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:39:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:43:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:43:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:46:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:47:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:47:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:47:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m4[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m4[0m import  from "../interfaces/users.interface"
+[7m [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m4[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m4[0m import  from "../interfaces/users.interface"
+[7m [0m [91m             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:47:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:47:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:48:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m241[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m241[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:50:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:50:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:50:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m9[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m9[0m  async getSignedUrlAWS(
+[7m [0m [91m       ~~~~~~~~~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m9[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m9[0m  async getSignedUrlAWS(
+[7m [0m [91m       ~~~~~~~~~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:50:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:51:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:51:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 16:51:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m242[0m:[93m2[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m242[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:19:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m240[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m   const user this.User.find()
+[7m   [0m [91m             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m240[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m   const user this.User.find()
+[7m   [0m [91m             ~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:19:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m243[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m243[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m243[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m243[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:20:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m243[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m243[0m  }
+[7m   [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m243[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m243[0m  }
+[7m   [0m [91m ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:32:59 error: uncaughtException: Unexpected token ';'
+C:\rohit\typescript starter\src\utils\helper.ts:208
+            const ;
+                  ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-03-21 17:33:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m244[0m:[93m10[0m - [91merror[0m[90m TS1389: [0m'default' is not allowed as a variable declaration name.
+
+[7m244[0m    const default
+[7m   [0m [91m         ~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m249[0m:[93m2[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m249[0m  }
+[7m   [0m [91m ~[0m
+[96msrc/utils/helper.ts[0m:[93m250[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m250[0m }
+[7m   [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m244[0m:[93m10[0m - [91merror[0m[90m TS1389: [0m'default' is not allowed as a variable declaration name.
+
+[7m244[0m    const default
+[7m   [0m [91m         ~~~~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m249[0m:[93m2[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m249[0m  }
+[7m   [0m [91m ~[0m
+[96msrc/utils/helper.ts[0m:[93m250[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m250[0m }
+[7m   [0m [91m~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:33:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m247[0m   }
+[7m   [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m247[0m   }
+[7m   [0m [91m  ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:33:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m246[0m    }
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m246[0m    }
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:33:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m246[0m    }
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m246[0m    }
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:36:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m247[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m247[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:36:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m247[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m248[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m248[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m246[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m247[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+[96msrc/utils/helper.ts[0m:[93m248[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m248[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:36:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m248[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m248[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m248[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m248[0m     name: config.get("admin.name")
+[7m   [0m [91m    ~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:38:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m250[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m250[0m    }
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m250[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m250[0m    }
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:44:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m253[0m   }
+[7m   [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m253[0m   }
+[7m   [0m [91m  ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:44:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m251[0m:[93m22[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m251[0m    defaultUser.save(())
+[7m   [0m [91m                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m251[0m:[93m22[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m251[0m    defaultUser.save(())
+[7m   [0m [91m                     ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:45:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:45:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 17:46:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/helper.ts[0m:[93m253[0m:[93m4[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m253[0m    })
+[7m   [0m [91m   ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:40:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m245[0m:[93m2[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m245[0m }\
+[7m   [0m [91m [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m245[0m:[93m2[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m245[0m }\
+[7m   [0m [91m [0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:40:37 error: uncaughtException: Unexpected strict mode reserved word
+C:\rohit\typescript starter\src\services\auth.service.ts:179
+public;
+^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-03-21 18:40:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify
+[7m   [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify
+[7m   [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:40:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify()
+[7m   [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify()
+[7m   [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:40:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(token)
+[7m   [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(token)
+[7m   [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(token)
+[7m   [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(token)
+[7m   [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData)
+[7m   [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData)
+[7m   [0m [91m~~~~~~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:)
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:)
+[7m   [0m [91m                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:)
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:)
+[7m   [0m [91m                          ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData)
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData)
+[7m   [0m [91m                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData)
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData)
+[7m   [0m [91m                          ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string
+[7m   [0m [91m                                     ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:41:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m246[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m246[0m public JWTverify(tokenData:TokenData):string{
+[7m   [0m [91m                                            ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\controllers\auth.controller.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-21 18:51:35 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\rohit\typescript starter\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\rohit\typescript starter\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\rohit\typescript starter\node_modules\express\lib\router\index.js:494:15)
+    at Function.proto.<computed> [as get] (C:\rohit\typescript starter\node_modules\express\lib\router\index.js:509:22)
+    at AuthRoute.initializeRoutes (C:\rohit\typescript starter\src\routes\auth.route.ts:47:15)
+    at new AuthRoute (C:\rohit\typescript starter\src\routes\auth.route.ts:16:8)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\server.ts:18:2)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at phase4 (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\bin.ts:567:12)
+    at bootstrap (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\bin.ts:85:10)
+2022-03-21 18:51:41 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\rohit\typescript starter\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\rohit\typescript starter\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\rohit\typescript starter\node_modules\express\lib\router\index.js:494:15)
+    at Function.proto.<computed> [as get] (C:\rohit\typescript starter\node_modules\express\lib\router\index.js:509:22)
+    at AuthRoute.initializeRoutes (C:\rohit\typescript starter\src\routes\auth.route.ts:47:15)
+    at new AuthRoute (C:\rohit\typescript starter\src\routes\auth.route.ts:16:8)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\server.ts:18:2)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at phase4 (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\bin.ts:567:12)
+    at bootstrap (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\bin.ts:85:10)
+2022-03-21 18:52:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m48[0m:[93m12[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m48[0m    `${this.}`
+[7m  [0m [91m           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m48[0m:[93m12[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m48[0m    `${this.}`
+[7m  [0m [91m           ~[0m
+
+    at createTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter\src\server.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)

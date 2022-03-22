@@ -1,0 +1,18 @@
+2022-03-22 18:38:13 error: uncaughtException: undefined is not a constructor
+TypeError: undefined is not a constructor
+    at Helper.<instance_members_initializer> (C:\rohit\typescript starter1\src\utils\helper.ts:12:16)
+    at new Helper (C:\rohit\typescript starter1\src\utils\helper.ts:9:1)
+    at Object.<anonymous> (C:\rohit\typescript starter1\src\utils\helper.ts:272:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\typescript starter1\src\services\users.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\pc\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)

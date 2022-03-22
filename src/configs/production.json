@@ -1,0 +1,46 @@
+{
+    "env": "production",
+    "siteTitle": "Tooth Fairy",
+    "siteUrl": "http://127.0.0.1:6000",
+    "dbConfig": {
+        "host": "127.0.0.1",
+        "database": "production",
+        "port": 27017,
+        "username": "tf",
+        "password": "pRaJEvO86-Wa5rUcRIpE"
+    },
+    "secretKey": "jF3HbD9mmDqwddcCmAbfANPwqb7iqCp7QBns_JdxptV1swG1oUuYfxfUjeDJRVg",
+    "recordLimit": 10,
+    "awsS3": {
+        "prefix": "production/",
+        "accessKeyId": "",
+        "secretAccessKey": "",
+        "bucketName": "bucket",
+        "bucketRegion": "us-east-2",
+        "secretEntPoint": "s3-us-east-2.amazonaws.com",
+        "url": "https://bucket.s3-us-east-2.amazonaws.com/"
+    },
+    "mail": {
+        "from": "",
+        "host": "",
+        "port": 465,
+        "user": "",
+        "pass": ""
+    },
+    "twilio": {
+        "sid": "",
+        "secret": "",
+        "phoneNumber": "",
+        "phoneSid": ""
+    },
+    "stripe": {
+        "publishableKey": "",
+        "secretKey": ""
+    },
+    "admin": {
+        "name": "Admin",
+        "mobile": "",
+        "email": "admin@yopmail.com",
+        "password": "123456"
+    }
+}

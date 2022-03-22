@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/mnt/62A4C6B9A4C68ECB/projects/tf_2021/src/logs/debug/.efc8576049125ca63ef10f3b80fcb28a9a855781-audit.json",
+    "files": [
+        {
+            "date": 1631540998838,
+            "name": "/mnt/62A4C6B9A4C68ECB/projects/tf_2021/src/logs/debug/2021-09-13.log",
+            "hash": "bbba461227fa04b3e640bf6ddec47451"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/ravi/Downloads/tf_2021/src/logs/debug/.69beb233b41fbeb8fddb66df75a7fe4627dd6a88-audit.json",
+    "files": [
+        {
+            "date": 1631548656564,
+            "name": "/home/ravi/Downloads/tf_2021/src/logs/debug/2021-09-13.log",
+            "hash": "5b5c1ef348e28a29fc76d057049f64d0"
+        }
+    ]
+}

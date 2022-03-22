@@ -1,0 +1,18 @@
+2021-08-07 00:11:34 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:711:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at DerivedLogger.EventEmitter.emit (domain.js:467:12)
+    at addChunk (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/mnt/62A4C6B9A4C68ECB/projects/srvitality/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)

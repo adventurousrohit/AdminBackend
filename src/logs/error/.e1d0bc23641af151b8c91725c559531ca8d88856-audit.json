@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\rohit\\typescript starter1\\src\\logs\\error\\.e1d0bc23641af151b8c91725c559531ca8d88856-audit.json",
+    "files": [
+        {
+            "date": 1647941603988,
+            "name": "C:\\rohit\\typescript starter1\\src\\logs\\error\\2022-03-22.log",
+            "hash": "7f8100be03a1ac596ac1e85c66ce2a6d"
+        }
+    ]
+}
