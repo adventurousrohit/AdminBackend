@@ -179,7 +179,7 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/login:
+  /auth/login:
     post:
       summary: Login for admins
       operationId: login
@@ -212,6 +212,42 @@ paths:
           description: Bad Request
         '500':
           description: Server Error
+  /auth/employee:
+    post:
+      summary: creating employee by admin
+      operationId: Create
+      tags:
+        - auth
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - email
+                - mobile
+                - password
+                - role
+              properties:
+                name:
+                  type: string
+                  example: Ravi
+                email:
+                  type: string
+                  example: raviroshanmehta@gmail.com
+                mobile:
+                  type: string
+                  example: '+919782547643'
+                password:
+                  type: string
+                  example: '123456'
+                role:
+                  type: string
+                  example: patient
+              
+
   /auth/social-login:
     post:
       summary: Social Login

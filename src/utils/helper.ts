@@ -2,14 +2,14 @@ import config from "config";
 import moment from "moment";
 import aws from "aws-sdk";
 // import userModel from "../models/users.model"
+import { User } from "@interfaces/users.interface";
 import UserService from "@/services/users.service";
 import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
 import { getMaxListeners } from "process";
-
+import {Roles} from "@/interfaces/roles.interface"
 class Helper {
 	
-	
-	// userService = new UserService()
+    userService = new UserService()
 	async getSignedUrlAWS(
 		fileName: any,
 		signedUrlExpireSeconds: number = 60 * 60
@@ -241,20 +241,20 @@ class Helper {
 
 
 	async defaultEntry(){
-	
+	// const user = null
 		// console.log("heee")
-		const user= await this.userService.findUserByRole({role:'admin'})
-		console.log('helo')
-		console.log(!user)
+		const user= await this.userService.findUserByRole('admin')
+		// console.log('gg',user)
+		// cons
 		
 		if(!user){
-			console.log("heee")
-			const admin =({
+			const admin:User =({
 				name: config.get("admin.name"),
 				mobile: config.get("admin.mobile"),
 				email: config.get("admin.email"),
-				role: config.get("admin.role"),
-				password:config.get("admin.password")
+				role:[{slug:config.get("admin.role")}]  ,
+				password:config.get("admin.password"),
+				status:true
 			})
 			
 			console.log(admin)
@@ -264,9 +264,6 @@ class Helper {
 		}
 
 	}
-	async test(){
-		console.log(new UserService())
-		
-	}
+
 }
 export default new Helper();

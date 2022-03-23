@@ -1,12 +1,13 @@
 export interface User {
     _id: string;
-    firstName: string;
-    lastName: string;
-	role: string;
+    // firstName: string;
+    // lastName: string;
+	name:string;
+	role:Array<object>;
 	email: string;
 	mobile: string;
 	password: string;
-	profileImage: string;
+	// profileImage: string;
 	status: boolean;
     
 }

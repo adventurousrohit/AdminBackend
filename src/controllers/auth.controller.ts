@@ -100,27 +100,26 @@ class AuthController {
 		}
 	};
 
-
+ 
 	public addUser = async (req: RequestWithUser, res: Response, next: NextFunction)=>{
 		try{
-			const userRole = req.user.role
+			const userRole = req.user.role[0].slug
 			if(userRole!=='admin')
 			throw new HttpException(
 				409,
 				MSG.NO_DATA)
-				const userDetails = req.body
+				const userDetails:CreateUserDto = req.body
 				const findUser:User = await this.userService.findUserByEmail(req.body.email)
 				if(findUser||userDetails.role!=='employee')
 					throw new HttpException(
 						409,
 						MSG.AUTH_WRONG)
 				
-				const { cookie, createUserData, tokenData } =
-				await this.authService.signup(userDetails)
+				const createUser = this.userService.createUser(userDetails)
 				res.status(201).json({
 					data: {
-						user: await Helper.userObj(createUserData),
-						token: tokenData,
+						user: await Helper.userObj(createUser),
+					
 					},
 					message: MSG.SIGNUP_SUCCESS,
 				});

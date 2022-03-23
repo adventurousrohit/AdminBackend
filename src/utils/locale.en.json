@@ -33,5 +33,6 @@
 	"TOKEN_INACTIVE": "Token is either expired or not valid",
 	"NOT_REGISTERED": "Please enter a registered email address",
 	"NOT_ADMIN":"you are not Authorized to add user",
-	"USER_EXIST":"User is already exist"
+	"USER_EXIST":"User is already exist",
+	"NOT_AUTHORIZED":"you are not Authorized"
 }

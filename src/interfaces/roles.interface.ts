@@ -1,5 +1,6 @@
 export interface Roles {
     _id: string;
     slug:string;
-    permission:Array;
+    permission:Array<string>;
   }
+

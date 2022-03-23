@@ -107,16 +107,20 @@ class UserService {
 	}
 
 	public async findUserByRole(userRole:Object): Promise<User> {
+		console.log("hlo",userRole)
 		
 		if (isEmpty(userRole))
 			throw new HttpException(400, MSG.FIELDS_MISSING);
-			console.log('find')
+			
+			
 		const findUser: User = await this.users.findOne({
-			role: userRole,
+			role:{$elemMatch:{slug:userRole}},
+		
 			isDeleted: false,
 		},(error,result)=>{
 			if(error){console.log(error)}
 		});
+		// console.log('find',findUser)
 		
 		return findUser;
 	}
@@ -148,15 +152,13 @@ class UserService {
 		const findUser: User = await this.users.findOne({
 			email: userData.email,
 		});
-		if (findUser)
-			throw new HttpException(
-				409,
-				MSG.EMAIL_IN_USE.replace("%email%", userData.email)
-			);
-			
-
-		const hashedPassword = await bcrypt.hash(userData.password, 10);
+		if (findUser){throw new HttpException(
+			409,
+			MSG.EMAIL_IN_USE.replace("%email%", userData.email)
+		);}else{
+			const hashedPassword = await bcrypt.hash(userData.password, 10);
 		console.log(hashedPassword)
+		console.log(userData)
 		const createUserData: User = await this.users.create({
 			...userData,
 			password: hashedPassword,
@@ -164,6 +166,20 @@ class UserService {
 
 		console.log(createUserData)
 		return createUserData;
+		}
+			
+			
+
+		// const hashedPassword = await bcrypt.hash(userData.password, 10);
+		// console.log(hashedPassword)
+		// console.log(userData)
+		// const createUserData: User = await this.users.create({
+		// 	...userData,
+		// 	password: hashedPassword,
+		// });
+
+		// console.log(createUserData)
+		// return createUserData;
 	}
 
 	public async updateUser(

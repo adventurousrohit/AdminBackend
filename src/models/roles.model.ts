@@ -5,17 +5,20 @@ import {Roles} from "../interfaces/roles.interface";
 
 const roleSchema:Schema = new Schema(
     {
+      role:[{
         slug:{
             type:String,
+            unique:true,
             enum:ROLES
         },
-        permission:[
-            {
+        permission:[]
 
-            }
-        ]
+       
+    } ]   
+      
+        
 
 }
 )
-const roleModel = model<Role & Document>("Role", roleSchema);
+const roleModel = model<Roles & Document>("Role", roleSchema);
 export default roleModel

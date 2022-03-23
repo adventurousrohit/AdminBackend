@@ -45,13 +45,15 @@ class AuthService {
 	): Promise<{ cookie: string; findUser: User; tokenData: any }> {
 		if (isEmpty(userData)) throw new HttpException(400, MSG.FIELDS_MISSING);
 		const role: string = userData.role;
+		console.log('role',role)
 
 		const findUser: User = await this.userService.findUserByEmail(
 			userData.email
 		);
+		console.log('find',findUser.role[0].slug)
 		if (!findUser) throw new HttpException(409, MSG.NOT_REGISTERED);
 
-		if (findUser && findUser.role != role)
+		if (findUser && findUser.role[0].slug != role)
 			throw new HttpException(
 				409,
 				MSG.DIFFERENT_ROLE.replace(

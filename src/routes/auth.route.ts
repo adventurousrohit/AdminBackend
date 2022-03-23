@@ -7,7 +7,7 @@ import { CreateUserDto } from "@dtos/users.dto";
 import OtpController from "@controllers/otps.controller"; 
 
 class AuthRoute implements Route {
-	public path = "/api/admin";
+	public path = "/api/auth";
 	public router = Router();
 	public authController = new AuthController();
 	public otpController = new OtpController();

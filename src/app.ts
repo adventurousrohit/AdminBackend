@@ -55,7 +55,7 @@ class App {
         .catch((error) =>
             logger.info(`${error}`)
 		);
-        // Helper.defaultEntry()
+        Helper.defaultEntry()
     }
 
     private initializeMiddlewares() {

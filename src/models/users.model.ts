@@ -1,54 +1,60 @@
 import { model, Schema, Document } from "mongoose";
 import { User } from "@interfaces/users.interface";
+// import Role from '@models/roles.model'
 
-const 
-    ROLES = ["admin","employee", "HR","PM","client"]
-   
+const ROLES = ["admin", "employee", "HR", "PM", "client"];
 
 const userSchema: Schema = new Schema(
-	{
-		name: {
-			type: String,
-			required: true,
-		},
-		lastName: {
-			type: String,
-			// required: true,
-		},
-		email: {
-			type: String,
-			required: true,
-			unique: true,
-		},
-		mobile: {
-			type: String,
-			required: true
-		},
-		password: {
-			type: String,
-			required: true,
-		},
-		role: [
-			{
-				slug:{
-					type:String,	
-				},
-				enum:ROLES
-			}
-		],
-		
-		status: {
-			type: Boolean,
-			default: false,
-		},
-		isDeleted: {
-			type: Boolean,
-			default: false,
-		},
-	},
-	{
-		timestamps: true,
-	}
+  {
+    name: {
+      type: String,
+      required: true,
+    },
+    lastName: {
+      type: String,
+      // required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    mobile: {
+      type: String,
+      required: true,
+    },
+    password: {
+      type: String,
+      required: true,
+    },
+    role: [
+      {
+        
+        slug: {
+          type: String,
+          enum: ROLES,
+        },
+      
+      },
+    ],
+    // role:{
+    //   type:Schema.Types.ObjectId,
+    //   ref:"Role",
+    //   required:true
+    // },
+
+    status: {
+      type: Boolean,
+      default: false,
+    },
+    isDeleted: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  {
+    timestamps: true,
+  }
 );
 
 // userSchema.virtual('name')
