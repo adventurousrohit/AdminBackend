@@ -19,22 +19,23 @@ class Admincontroller {
     next: NextFunction
   ) => {
     try {
-      const userRole= req.user.role[0].slug;
-      if (userRole!== "admin") throw new HttpException(409, MSG.NOT_AUTHORIZED);
+      
+     req.body.role=[{slug:req.body.role}]
       const userDetails: CreateUserDto = req.body;
       const findUser: User = await this.UserService.findUserByEmail(
         req.body.email
       );
-      if (findUser && userDetails.role[0] !== "employee")
-        throw new HttpException(409, MSG.AUTH_WRONG);
+      if (findUser )
+        throw new HttpException(409, MSG.USER_EXIST);
 
-      const employeeData = this.UserService.createUser(userDetails);
+      const employeeData = await this.UserService.createUser(userDetails);
       res.status(201).json({
         data: {
-          user: await Helper.userObj(employeeData),
+          user:employeeData,
         },
         message: MSG.SIGNUP_SUCCESS,
       });
+      // Helper.sendSMS
     } catch(error){
         next(error)
     }
@@ -42,7 +43,8 @@ class Admincontroller {
 
   public findEmployee= async (req:Request,res:Response,next:NextFunction)=>{
       try{
-        const userDetails= this.UserService.findAllUser("employee")
+        let cond = {"role.slug":"employee"}
+        const userDetails= this.UserService.findAllUser(cond)
         res.status(200).json({
 
           message: MSG.SUCCESS,

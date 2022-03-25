@@ -1,0 +1,134 @@
+2022-03-25 16:01:17 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: Wrong authentication token
+2022-03-25 16:02:59 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:03:02 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:10:30 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:10:34 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:12:15 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 17:43:41 error: uncaughtException: emailVz is not defined
+ReferenceError: emailVz is not defined
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\models\users.model.ts:54:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\services\users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-25 17:44:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m60[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m60[0m     }
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m60[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m60[0m     }
+[7m  [0m [91m    ~[0m
+
+    at createTSError (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\services\users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-03-25 17:44:51 error: uncaughtException: defau is not defined
+ReferenceError: defau is not defined
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\models\users.model.ts:60:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\services\users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-25 17:45:08 error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\models\users.model.ts:62:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\services\users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-25 17:45:16 error: uncaughtException: type is not defined
+ReferenceError: type is not defined
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\models\users.model.ts:63:7)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\services\users.service.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-03-25 17:56:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m39[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m39[0m     } catch(error){
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m39[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m39[0m     } catch(error){
+[7m  [0m [91m    ~[0m
+
+    at createTSError (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\typescrip_project\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Dell\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)

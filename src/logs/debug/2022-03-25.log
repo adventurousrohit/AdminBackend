@@ -101,3 +101,175 @@
 2022-03-25 12:09:32 info: ======= ENV: development =======
 2022-03-25 12:09:32 info: 🚀 App listening on the port 5000
 2022-03-25 12:09:32 info: =================================
+2022-03-25 13:55:02 info: =================================
+2022-03-25 13:55:02 info: ======= ENV: development =======
+2022-03-25 13:55:02 info: 🚀 App listening on the port 5000
+2022-03-25 13:55:02 info: =================================
+2022-03-25 13:55:06 info: [0mGET /api/admin/employee/details [32m200[0m 10.152 ms - 47[0m
+2022-03-25 13:55:40 info: =================================
+2022-03-25 13:55:40 info: ======= ENV: development =======
+2022-03-25 13:55:40 info: 🚀 App listening on the port 5000
+2022-03-25 13:55:40 info: =================================
+2022-03-25 13:55:45 info: =================================
+2022-03-25 13:55:45 info: ======= ENV: development =======
+2022-03-25 13:55:45 info: 🚀 App listening on the port 5000
+2022-03-25 13:55:45 info: =================================
+2022-03-25 13:55:45 info: [0mGET /api/admin/employee/details [32m200[0m 15.836 ms - 47[0m
+2022-03-25 15:49:27 info: =================================
+2022-03-25 15:49:27 info: ======= ENV: development =======
+2022-03-25 15:49:27 info: 🚀 App listening on the port 5000
+2022-03-25 15:49:27 info: =================================
+2022-03-25 15:49:42 info: =================================
+2022-03-25 15:49:42 info: ======= ENV: development =======
+2022-03-25 15:49:42 info: 🚀 App listening on the port 5000
+2022-03-25 15:49:42 info: =================================
+2022-03-25 15:49:49 info: =================================
+2022-03-25 15:49:49 info: ======= ENV: development =======
+2022-03-25 15:49:49 info: 🚀 App listening on the port 5000
+2022-03-25 15:49:49 info: =================================
+2022-03-25 15:50:00 info: =================================
+2022-03-25 15:50:00 info: ======= ENV: development =======
+2022-03-25 15:50:00 info: 🚀 App listening on the port 5000
+2022-03-25 15:50:00 info: =================================
+2022-03-25 15:50:38 info: =================================
+2022-03-25 15:50:38 info: ======= ENV: development =======
+2022-03-25 15:50:38 info: 🚀 App listening on the port 5000
+2022-03-25 15:50:38 info: =================================
+2022-03-25 15:51:03 info: =================================
+2022-03-25 15:51:03 info: ======= ENV: development =======
+2022-03-25 15:51:03 info: 🚀 App listening on the port 5000
+2022-03-25 15:51:03 info: =================================
+2022-03-25 15:51:50 info: =================================
+2022-03-25 15:51:50 info: ======= ENV: development =======
+2022-03-25 15:51:50 info: 🚀 App listening on the port 5000
+2022-03-25 15:51:50 info: =================================
+2022-03-25 15:52:16 info: =================================
+2022-03-25 15:52:16 info: ======= ENV: development =======
+2022-03-25 15:52:16 info: 🚀 App listening on the port 5000
+2022-03-25 15:52:16 info: =================================
+2022-03-25 15:52:30 info: =================================
+2022-03-25 15:52:30 info: ======= ENV: development =======
+2022-03-25 15:52:30 info: 🚀 App listening on the port 5000
+2022-03-25 15:52:30 info: =================================
+2022-03-25 15:53:51 info: =================================
+2022-03-25 15:53:51 info: ======= ENV: development =======
+2022-03-25 15:53:51 info: 🚀 App listening on the port 5000
+2022-03-25 15:53:51 info: =================================
+2022-03-25 15:54:00 info: =================================
+2022-03-25 15:54:00 info: ======= ENV: development =======
+2022-03-25 15:54:00 info: 🚀 App listening on the port 5000
+2022-03-25 15:54:00 info: =================================
+2022-03-25 15:54:47 info: =================================
+2022-03-25 15:54:47 info: ======= ENV: development =======
+2022-03-25 15:54:47 info: 🚀 App listening on the port 5000
+2022-03-25 15:54:47 info: =================================
+2022-03-25 15:56:24 info: =================================
+2022-03-25 15:56:24 info: ======= ENV: development =======
+2022-03-25 15:56:24 info: 🚀 App listening on the port 5000
+2022-03-25 15:56:24 info: =================================
+2022-03-25 15:57:02 info: [0mGET /swagger.yaml [32m200[0m 14.021 ms - -[0m
+2022-03-25 15:58:12 info: [0mGET /swagger.yaml [32m200[0m 3.207 ms - -[0m
+2022-03-25 15:58:31 info: [0mGET /api-docs/ [36m304[0m 6.697 ms - -[0m
+2022-03-25 15:58:31 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.980 ms - -[0m
+2022-03-25 15:58:31 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 9.706 ms - -[0m
+2022-03-25 15:58:31 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 10.321 ms - -[0m
+2022-03-25 15:58:31 info: [0mGET /api-docs/swagger-load.js [36m304[0m 5.172 ms - -[0m
+2022-03-25 15:58:32 info: [0mGET /swagger.yaml [36m304[0m 0.901 ms - -[0m
+2022-03-25 15:58:51 info: [0mGET /swagger.yaml [32m200[0m 3.375 ms - -[0m
+2022-03-25 15:58:57 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.428 ms - 0[0m
+2022-03-25 15:58:57 info: [0mPOST /api/admin/createEmployees [32m201[0m 100.123 ms - 121[0m
+2022-03-25 15:58:59 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: Wrong authentication token
+2022-03-25 15:58:59 info: [0mPOST /api/admin/createEmployees [33m409[0m 12.207 ms - 40[0m
+2022-03-25 16:01:11 info: =================================
+2022-03-25 16:01:11 info: ======= ENV: development =======
+2022-03-25 16:01:11 info: 🚀 App listening on the port 5000
+2022-03-25 16:01:11 info: =================================
+2022-03-25 16:01:17 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 2.905 ms - 0[0m
+2022-03-25 16:01:17 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: Wrong authentication token
+2022-03-25 16:01:17 info: [0mPOST /api/admin/createEmployees [33m409[0m 65.839 ms - 40[0m
+2022-03-25 16:02:12 info: =================================
+2022-03-25 16:02:12 info: ======= ENV: development =======
+2022-03-25 16:02:12 info: 🚀 App listening on the port 5000
+2022-03-25 16:02:12 info: =================================
+2022-03-25 16:02:53 info: [0mGET /swagger.yaml [32m200[0m 15.926 ms - -[0m
+2022-03-25 16:02:59 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.437 ms - 0[0m
+2022-03-25 16:02:59 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:02:59 info: [0mPOST /api/admin/createEmployees [33m409[0m 74.197 ms - 35[0m
+2022-03-25 16:03:02 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:03:02 info: [0mPOST /api/admin/createEmployees [33m409[0m 20.654 ms - 35[0m
+2022-03-25 16:03:43 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.428 ms - 0[0m
+2022-03-25 16:03:43 info: [0mPOST /api/admin/createEmployees [32m201[0m 13.706 ms - 121[0m
+2022-03-25 16:08:50 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.239 ms - 0[0m
+2022-03-25 16:08:50 info: [0mPOST /api/admin/createEmployees [32m201[0m 7.585 ms - 121[0m
+2022-03-25 16:09:57 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.212 ms - 0[0m
+2022-03-25 16:09:57 info: [0mPOST /api/admin/createEmployees [32m201[0m 15.064 ms - 121[0m
+2022-03-25 16:10:01 info: [0mGET /swagger.yaml [32m200[0m 2.275 ms - -[0m
+2022-03-25 16:10:24 info: [0mGET /swagger.yaml [32m200[0m 2.095 ms - -[0m
+2022-03-25 16:10:30 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.401 ms - 0[0m
+2022-03-25 16:10:30 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:10:30 info: [0mPOST /api/admin/createEmployees [33m409[0m 9.501 ms - 35[0m
+2022-03-25 16:10:34 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:10:34 info: [0mPOST /api/admin/createEmployees [33m409[0m 13.955 ms - 35[0m
+2022-03-25 16:11:24 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.386 ms - 0[0m
+2022-03-25 16:11:24 info: [0mPOST /api/admin/createEmployees [32m201[0m 17.291 ms - 121[0m
+2022-03-25 16:11:47 info: =================================
+2022-03-25 16:11:47 info: ======= ENV: development =======
+2022-03-25 16:11:47 info: 🚀 App listening on the port 5000
+2022-03-25 16:11:47 info: =================================
+2022-03-25 16:12:04 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 3.948 ms - 0[0m
+2022-03-25 16:12:04 info: [0mPOST /api/admin/createEmployees [32m201[0m 282.266 ms - 418[0m
+2022-03-25 16:12:15 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.218 ms - 0[0m
+2022-03-25 16:12:15 error: [POST] /api/admin/createEmployees >> StatusCode:: 409, Message:: User is already exist
+2022-03-25 16:12:15 info: [0mPOST /api/admin/createEmployees [33m409[0m 17.388 ms - 35[0m
+2022-03-25 16:21:37 info: =================================
+2022-03-25 16:21:37 info: ======= ENV: development =======
+2022-03-25 16:21:37 info: 🚀 App listening on the port 5000
+2022-03-25 16:21:37 info: =================================
+2022-03-25 16:21:57 info: =================================
+2022-03-25 16:21:57 info: ======= ENV: development =======
+2022-03-25 16:21:57 info: 🚀 App listening on the port 5000
+2022-03-25 16:21:57 info: =================================
+2022-03-25 16:22:02 info: =================================
+2022-03-25 16:22:02 info: ======= ENV: development =======
+2022-03-25 16:22:02 info: 🚀 App listening on the port 5000
+2022-03-25 16:22:02 info: =================================
+2022-03-25 16:22:08 info: =================================
+2022-03-25 16:22:08 info: ======= ENV: development =======
+2022-03-25 16:22:08 info: 🚀 App listening on the port 5000
+2022-03-25 16:22:08 info: =================================
+2022-03-25 16:27:49 info: =================================
+2022-03-25 16:27:49 info: ======= ENV: development =======
+2022-03-25 16:27:49 info: 🚀 App listening on the port 5000
+2022-03-25 16:27:49 info: =================================
+2022-03-25 17:44:17 info: =================================
+2022-03-25 17:44:17 info: ======= ENV: development =======
+2022-03-25 17:44:17 info: 🚀 App listening on the port 5000
+2022-03-25 17:44:17 info: =================================
+2022-03-25 17:44:30 info: =================================
+2022-03-25 17:44:30 info: ======= ENV: development =======
+2022-03-25 17:44:30 info: 🚀 App listening on the port 5000
+2022-03-25 17:44:30 info: =================================
+2022-03-25 17:45:01 info: =================================
+2022-03-25 17:45:01 info: ======= ENV: development =======
+2022-03-25 17:45:01 info: 🚀 App listening on the port 5000
+2022-03-25 17:45:01 info: =================================
+2022-03-25 17:45:27 info: =================================
+2022-03-25 17:45:27 info: ======= ENV: development =======
+2022-03-25 17:45:27 info: 🚀 App listening on the port 5000
+2022-03-25 17:45:27 info: =================================
+2022-03-25 17:56:21 info: =================================
+2022-03-25 17:56:21 info: ======= ENV: development =======
+2022-03-25 17:56:21 info: 🚀 App listening on the port 5000
+2022-03-25 17:56:21 info: =================================
+2022-03-25 17:56:31 info: =================================
+2022-03-25 17:56:31 info: ======= ENV: development =======
+2022-03-25 17:56:31 info: 🚀 App listening on the port 5000
+2022-03-25 17:56:31 info: =================================
+2022-03-25 17:56:49 info: =================================
+2022-03-25 17:56:49 info: ======= ENV: development =======
+2022-03-25 17:56:49 info: 🚀 App listening on the port 5000
+2022-03-25 17:56:49 info: =================================
+2022-03-25 17:57:08 info: =================================
+2022-03-25 17:57:08 info: ======= ENV: development =======
+2022-03-25 17:57:08 info: 🚀 App listening on the port 5000
+2022-03-25 17:57:08 info: =================================

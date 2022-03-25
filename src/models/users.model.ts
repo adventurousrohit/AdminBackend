@@ -51,6 +51,17 @@ const userSchema: Schema = new Schema(
       type: Boolean,
       default: false,
     },
+    emailVarification:{
+      type:Boolean,
+      default:false
+    },
+    mobileVarification:{
+      type:Boolean,
+      default:false
+    },
+    token:{
+      type:String
+    }
   },
   {
     timestamps: true,
