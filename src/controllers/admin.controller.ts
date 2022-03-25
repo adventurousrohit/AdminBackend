@@ -19,13 +19,13 @@ class Admincontroller {
     next: NextFunction
   ) => {
     try {
-      const userRole = req.user.role[0].slug;
-      if (userRole !== "admin") throw new HttpException(409, MSG.NOT_AUTHORIZED);
+      const userRole= req.user.role[0].slug;
+      if (userRole!== "admin") throw new HttpException(409, MSG.NOT_AUTHORIZED);
       const userDetails: CreateUserDto = req.body;
       const findUser: User = await this.UserService.findUserByEmail(
         req.body.email
       );
-      if (findUser || userDetails.role[0] !== "employee")
+      if (findUser && userDetails.role[0] !== "employee")
         throw new HttpException(409, MSG.AUTH_WRONG);
 
       const employeeData = this.UserService.createUser(userDetails);
@@ -42,8 +42,16 @@ class Admincontroller {
 
   public findEmployee= async (req:Request,res:Response,next:NextFunction)=>{
       try{
+        const userDetails= this.UserService.findAllUser("employee")
+        res.status(200).json({
+
+          message: MSG.SUCCESS,
+          data: {
+              userDetails,
+          },
+      });
           
-      }catch{}
+      }catch(error){next(error)}
 
 
 
@@ -51,3 +59,5 @@ class Admincontroller {
 
   }
 }
+
+export default Admincontroller

@@ -8,6 +8,7 @@ import AuthRoute from "@routes/auth.route";
 import IndexRoute from "@routes/index.route";
 import UsersRoute from "@routes/users.route";
 import AjaxRoute from "@routes/ajax.route";
+import AdminRoute from "@routes/admin.route";
 
 
 import validateEnv from "@utils/validateEnv";
@@ -19,6 +20,7 @@ const app = new App([
 	new IndexRoute(),
 	new UsersRoute(),
 	new AjaxRoute(),
+	new AdminRoute(),
 
 ]);
 

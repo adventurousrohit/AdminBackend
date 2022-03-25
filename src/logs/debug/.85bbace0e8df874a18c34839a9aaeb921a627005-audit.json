@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\typescrip_project\\typescriptBackend\\src\\logs\\debug\\.85bbace0e8df874a18c34839a9aaeb921a627005-audit.json",
+    "files": [
+        {
+            "date": 1648101547543,
+            "name": "D:\\typescrip_project\\typescriptBackend\\src\\logs\\debug\\2022-03-24.log",
+            "hash": "5494c768b1be55ad1459d26e1c7bf46f"
+        },
+        {
+            "date": 1648183887036,
+            "name": "D:\\typescrip_project\\typescriptBackend\\src\\logs\\debug\\2022-03-25.log",
+            "hash": "6b94aeeb3cbf58b3713949ce59c1e720"
+        }
+    ]
+}

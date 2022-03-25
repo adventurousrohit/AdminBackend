@@ -19,8 +19,13 @@ export class CreateUserDto {
 	public name: string;
 
 	@IsNotEmpty()
+	@IsArray()
 	@IsString()
 	public role:Array<Object>;
+
+	@IsNotEmpty()
+	@IsString()
+	public slug:string
 
 	@IsEmail()
 	public email: string;

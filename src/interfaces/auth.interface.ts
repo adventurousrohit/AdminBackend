@@ -13,4 +13,4 @@ export interface TokenData {
 export interface RequestWithUser extends Request {
 	user: User;
 	flash: any;
-	fileName: string;
+	fileName: string;}

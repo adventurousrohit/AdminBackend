@@ -4,6 +4,7 @@ export interface User {
     // lastName: string;
 	name:string;
 	role:Array<object>;
+	// slug:String;
 	email: string;
 	mobile: string;
 	password: string;

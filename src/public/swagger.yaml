@@ -116,7 +116,7 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/signup:
+  /auth/signup:
     post:
       summary: Sign UP for admin
       operationId: signUP
@@ -212,7 +212,7 @@ paths:
           description: Bad Request
         '500':
           description: Server Error
-  /auth/employee:
+  /admin/createEmployees:
     post:
       summary: creating employee by admin
       operationId: Create
@@ -246,8 +246,6 @@ paths:
                 role:
                   type: string
                   example: patient
-              
-
   /auth/social-login:
     post:
       summary: Social Login

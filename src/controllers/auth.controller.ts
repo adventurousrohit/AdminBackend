@@ -19,12 +19,12 @@ class AuthController {
 		try {
 			
 			const userData: CreateUserDto = req.body;
-			const userRole  = userData.role
+			const userRole  = userData.role[0]
 
 			if (userRole!=='admin')
 				throw new HttpException(
 					400,
-					MSG.ROLE_INVALID.replace("%role%", userData.role)
+					MSG.ROLE_INVALID.replace("%role%",userData.role[0].slug)
 				);
 
 			// if (!["admin"].includes(userData.role))
@@ -110,7 +110,7 @@ class AuthController {
 				MSG.NO_DATA)
 				const userDetails:CreateUserDto = req.body
 				const findUser:User = await this.userService.findUserByEmail(req.body.email)
-				if(findUser||userDetails.role!=='employee')
+				if(findUser||userDetails.role[0].slug!=='employee')
 					throw new HttpException(
 						409,
 						MSG.AUTH_WRONG)
@@ -153,63 +153,63 @@ class AuthController {
 		}
 	};
 
-	public socialLogin = async (
-		req: Request,
-		res: Response,
-		next: NextFunction
-	) => {
-		try {
-			const userData: CreateUserDto = req.body;
+	// public socialLogin = async (
+	// 	req: Request,
+	// 	res: Response,
+	// 	next: NextFunction
+	// ) => {
+	// 	try {
+	// 		const userData: CreateUserDto = req.body;
 
-			if (!["trainer", "user"].includes(userData.role))
-				throw new HttpException(
-					400,
-					MSG.ROLE_INVALID.replace("%role%", userData.role)
-				);
+	// 		if (!["trainer", "user"].includes(userData.role))
+	// 			throw new HttpException(
+	// 				400,
+	// 				MSG.ROLE_INVALID.replace("%role%", userData.role)
+	// 			);
 
-			if (!["apple", "google", "facebook"].includes(userData.social.type))
-				throw new HttpException(
-					400,
-					MSG.SOCIAL_INVALID.replace("%social%", userData.social.type)
-				);
+	// 		if (!["apple", "google", "facebook"].includes(userData.social.type))
+	// 			throw new HttpException(
+	// 				400,
+	// 				MSG.SOCIAL_INVALID.replace("%social%", userData.social.type)
+	// 			);
 
-			let checkUser: User;
-			checkUser =
-				userData.email && !isEmpty(userData.email)
-					? await this.userService.findUserByEmail(userData.email)
-					: await this.userService.findUserBySocial(userData.social);
+	// 		let checkUser: User;
+	// 		checkUser =
+	// 			userData.email && !isEmpty(userData.email)
+	// 				? await this.userService.findUserByEmail(userData.email)
+	// 				: await this.userService.findUserBySocial(userData.social);
 
-			// if (checkUser && isEmpty(checkUser.social.type))
-			// 	throw new HttpException(409, MSG.SOCIAL_LOGIN_NOT_ALLOWED);
+	// 		// if (checkUser && isEmpty(checkUser.social.type))
+	// 		// 	throw new HttpException(409, MSG.SOCIAL_LOGIN_NOT_ALLOWED);
 
-			// if (
-			// 	checkUser &&
-			// 	!isEmpty(checkUser.social.type) &&
-			// 	checkUser.social.type !== userData.social.type
-			// )
-			// 	throw new HttpException(
-			// 		409,
-			// 		MSG.SOCIAL_LOGIN_TYPE_WRONG.replace(
-			// 			"%social%",
-			// 			checkUser.social.type
-			// 		)
-			// 	);
+	// 		// if (
+	// 		// 	checkUser &&
+	// 		// 	!isEmpty(checkUser.social.type) &&
+	// 		// 	checkUser.social.type !== userData.social.type
+	// 		// )
+	// 		// 	throw new HttpException(
+	// 		// 		409,
+	// 		// 		MSG.SOCIAL_LOGIN_TYPE_WRONG.replace(
+	// 		// 			"%social%",
+	// 		// 			checkUser.social.type
+	// 		// 		)
+	// 		// 	);
 
-			const { cookie, findUser, tokenData } =
-				await this.authService.socialogin(userData);
+	// 		const { cookie, findUser, tokenData } =
+	// 			await this.authService.socialogin(userData);
 
-			res.setHeader("Set-Cookie", [cookie]);
-			res.status(200).json({
-				data: {
-					user: await Helper.userObj(findUser),
-					token: tokenData,
-				},
-				message: MSG.LOGIN_SUCCESS,
-			});
-		} catch (error) {
-			next(error);
-		}
-	};
+	// 		res.setHeader("Set-Cookie", [cookie]);
+	// 		res.status(200).json({
+	// 			data: {
+	// 				user: await Helper.userObj(findUser),
+	// 				token: tokenData,
+	// 			},
+	// 			message: MSG.LOGIN_SUCCESS,
+	// 		});
+	// 	} catch (error) {
+	// 		next(error);
+	// 	}
+	// };
 
 	public logOut = async (
 		req: RequestWithUser,

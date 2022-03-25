@@ -7,6 +7,7 @@ import UserService from "@/services/users.service";
 import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
 import { getMaxListeners } from "process";
 import {Roles} from "@/interfaces/roles.interface"
+import { Schema } from "mongoose";
 class Helper {
 	
     userService = new UserService()
@@ -245,7 +246,7 @@ class Helper {
 		// console.log("heee")
 		const user= await this.userService.findUserByRole('admin')
 		// console.log('gg',user)
-		// cons
+	
 		
 		if(!user){
 			const admin:User =({

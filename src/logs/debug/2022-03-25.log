@@ -1,0 +1,103 @@
+2022-03-25 10:21:32 info: =================================
+2022-03-25 10:21:32 info: ======= ENV: development =======
+2022-03-25 10:21:32 info: 🚀 App listening on the port 5000
+2022-03-25 10:21:32 info: =================================
+2022-03-25 10:27:33 info: [0mGET /api-docs [36m301[0m 9.152 ms - 183[0m
+2022-03-25 10:27:33 info: [0mGET /api-docs/ [32m200[0m 8.825 ms - 1021[0m
+2022-03-25 10:27:33 info: [0mGET /api-docs/swagger-load.js [32m200[0m 14.409 ms - 604[0m
+2022-03-25 10:27:33 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 15.286 ms - -[0m
+2022-03-25 10:27:33 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 11.902 ms - -[0m
+2022-03-25 10:27:33 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 20.888 ms - -[0m
+2022-03-25 10:27:33 info: [0mGET /swagger.yaml [32m200[0m 2.012 ms - -[0m
+2022-03-25 10:27:34 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 2.628 ms - 628[0m
+2022-03-25 10:29:30 info: [0mOPTIONS /api/auth/login [32m204[0m 0.484 ms - 0[0m
+2022-03-25 10:29:31 info: [0mPOST /api/auth/login [32m200[0m 366.130 ms - 468[0m
+2022-03-25 10:31:37 info: [0mOPTIONS /api/admin/employee [32m204[0m 0.357 ms - 0[0m
+2022-03-25 10:31:37 error: [POST] /api/admin/employee >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:31:37 info: [0mPOST /api/admin/employee [33m400[0m 9.850 ms - 56[0m
+2022-03-25 10:31:41 error: [POST] /api/admin/employee >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:31:41 info: [0mPOST /api/admin/employee [33m400[0m 2.798 ms - 56[0m
+2022-03-25 10:34:14 info: =================================
+2022-03-25 10:34:14 info: ======= ENV: development =======
+2022-03-25 10:34:14 info: 🚀 App listening on the port 5000
+2022-03-25 10:34:14 info: =================================
+2022-03-25 10:34:22 info: =================================
+2022-03-25 10:34:22 info: ======= ENV: development =======
+2022-03-25 10:34:22 info: 🚀 App listening on the port 5000
+2022-03-25 10:34:22 info: =================================
+2022-03-25 10:34:35 info: =================================
+2022-03-25 10:34:35 info: ======= ENV: development =======
+2022-03-25 10:34:35 info: 🚀 App listening on the port 5000
+2022-03-25 10:34:35 info: =================================
+2022-03-25 10:35:00 info: =================================
+2022-03-25 10:35:00 info: ======= ENV: development =======
+2022-03-25 10:35:00 info: 🚀 App listening on the port 5000
+2022-03-25 10:35:00 info: =================================
+2022-03-25 10:35:07 info: [0mOPTIONS /api/admin/employee [32m204[0m 2.505 ms - 0[0m
+2022-03-25 10:35:07 error: [POST] /api/admin/employee >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:35:07 info: [0mPOST /api/admin/employee [33m400[0m 79.224 ms - 56[0m
+2022-03-25 10:35:20 info: [0mGET /api-docs/ [36m304[0m 5.930 ms - -[0m
+2022-03-25 10:35:20 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 7.306 ms - -[0m
+2022-03-25 10:35:20 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 10.529 ms - -[0m
+2022-03-25 10:35:20 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 11.403 ms - -[0m
+2022-03-25 10:35:20 info: [0mGET /api-docs/swagger-load.js [36m304[0m 10.969 ms - -[0m
+2022-03-25 10:35:21 info: [0mGET /swagger.yaml [32m200[0m 8.375 ms - -[0m
+2022-03-25 10:35:21 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 8.969 ms - -[0m
+2022-03-25 10:35:30 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 0.432 ms - 0[0m
+2022-03-25 10:35:30 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:35:30 info: [0mPOST /api/admin/createEmployees [33m400[0m 3.904 ms - 56[0m
+2022-03-25 10:36:38 info: =================================
+2022-03-25 10:36:38 info: ======= ENV: development =======
+2022-03-25 10:36:38 info: 🚀 App listening on the port 5000
+2022-03-25 10:36:38 info: =================================
+2022-03-25 10:38:35 info: [0mGET /api-docs/ [36m304[0m 7.742 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.270 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.464 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 12.363 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /api-docs/swagger-load.js [36m304[0m 16.595 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /swagger.yaml [36m304[0m 0.749 ms - -[0m
+2022-03-25 10:38:35 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.704 ms - -[0m
+2022-03-25 10:38:43 info: [0mOPTIONS /api/admin/createEmployees [32m204[0m 1.086 ms - 0[0m
+2022-03-25 10:38:43 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:38:43 info: [0mPOST /api/admin/createEmployees [33m400[0m 65.187 ms - 56[0m
+2022-03-25 10:38:46 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:38:46 info: [0mPOST /api/admin/createEmployees [33m400[0m 3.712 ms - 56[0m
+2022-03-25 10:38:46 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 125
+2022-03-25 10:38:46 info: [0mPOST /api/admin/createEmployees [33m400[0m 3.470 ms - 56[0m
+2022-03-25 10:41:41 info: =================================
+2022-03-25 10:41:41 info: ======= ENV: development =======
+2022-03-25 10:41:41 info: 🚀 App listening on the port 5000
+2022-03-25 10:41:41 info: =================================
+2022-03-25 10:44:25 info: =================================
+2022-03-25 10:44:25 info: ======= ENV: development =======
+2022-03-25 10:44:25 info: 🚀 App listening on the port 5000
+2022-03-25 10:44:25 info: =================================
+2022-03-25 10:52:36 info: =================================
+2022-03-25 10:52:36 info: ======= ENV: development =======
+2022-03-25 10:52:36 info: 🚀 App listening on the port 5000
+2022-03-25 10:52:36 info: =================================
+2022-03-25 10:55:38 info: [0mGET / [33m404[0m 9.595 ms - 139[0m
+2022-03-25 10:56:04 info: [0mGET / [33m404[0m 2.874 ms - 139[0m
+2022-03-25 10:56:09 info: [0mGET / [33m404[0m 1.073 ms - 139[0m
+2022-03-25 10:56:10 info: [0mGET / [33m404[0m 1.106 ms - 139[0m
+2022-03-25 10:56:10 info: [0mGET / [33m404[0m 1.870 ms - 139[0m
+2022-03-25 10:56:10 info: [0mGET / [33m404[0m 1.419 ms - 139[0m
+2022-03-25 10:56:28 info: [0mGET / [33m404[0m 1.280 ms - 139[0m
+2022-03-25 10:56:42 info: [0mGET /api [32m200[0m 3.516 ms - 62[0m
+2022-03-25 10:57:29 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 130
+2022-03-25 10:57:29 info: [0mPOST /api/admin/createEmployees [33m400[0m 40.402 ms - 56[0m
+2022-03-25 10:58:27 error: [POST] /api/admin/createEmployees >> StatusCode:: 400, Message:: Unexpected token e in JSON at position 137
+2022-03-25 10:58:27 info: [0mPOST /api/admin/createEmployees [33m400[0m 3.429 ms - 56[0m
+2022-03-25 10:58:43 error: [POST] /api/admin/createEmployees >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'role')
+2022-03-25 10:58:43 info: [0mPOST /api/admin/createEmployees [31m500[0m 4.198 ms - 66[0m
+2022-03-25 10:59:52 info: [0mGET /api/employee/details [33m404[0m 2.850 ms - 159[0m
+2022-03-25 11:00:14 info: =================================
+2022-03-25 11:00:14 info: ======= ENV: development =======
+2022-03-25 11:00:14 info: 🚀 App listening on the port 5000
+2022-03-25 11:00:14 info: =================================
+2022-03-25 11:00:24 info: [0mGET /api/employee/details [33m404[0m 14.406 ms - 159[0m
+2022-03-25 11:00:57 info: [0mGET /api/admin/employee/details [32m200[0m 5.213 ms - 47[0m
+2022-03-25 12:09:32 info: =================================
+2022-03-25 12:09:32 info: ======= ENV: development =======
+2022-03-25 12:09:32 info: 🚀 App listening on the port 5000
+2022-03-25 12:09:32 info: =================================
