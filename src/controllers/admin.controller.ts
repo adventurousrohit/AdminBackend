@@ -9,6 +9,7 @@ import Mongoose from "mongoose";
 import moment from "moment";
 import config from "config";
 import MSG from "@utils/locale.en.json";
+import helper from "@/utils/helper";
 
 class Admincontroller {
   public UserService = new userService();
@@ -29,13 +30,25 @@ class Admincontroller {
         throw new HttpException(409, MSG.USER_EXIST);
 
       const employeeData = await this.UserService.createUser(userDetails);
+      // res.status(201).json({
+      //   data: {
+      //     user:employeeData,
+      //   },
+      //   message: MSG.SIGNUP_SUCCESS,
+      // });
+      
+      if (req.body.email && req.body.email.length > 0) {
+				let usrObj = {
+					email: employeeData.email,
+				};
+        Helper.mailStaticTemplates("send-activationLink",usrObj)
+      }
       res.status(201).json({
-        data: {
-          user:employeeData,
-        },
-        message: MSG.SIGNUP_SUCCESS,
-      });
-      // Helper.sendSMS
+				data: { _id: employeeData._id },
+				message: MSG.SIGNUP_SUCCESS,
+			});
+      
+  
     } catch(error){
         next(error)
     }
@@ -55,11 +68,19 @@ class Admincontroller {
           
       }catch(error){next(error)}
 
-
-
-
-
   }
+  public accountActivation = async (req:Request,res:Response,next:NextFunction)=>{
+    try{
+      let token = req.params.token
+      const findToken = this.UserService.findUserByResetToken(token)
+      if(!findToken)
+      throw new HttpException(409, MSG.ACTIVATION_FAILED);
+      const _id= (await findToken)._id
+      this.UserService.resetToken(_id)
+      
+    }catch{}
+  }
+
 }
 
 export default Admincontroller

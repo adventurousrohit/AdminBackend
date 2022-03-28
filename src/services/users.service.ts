@@ -8,6 +8,7 @@ import { isEmpty } from "@utils/util";
 import Helper from "@/utils/helper";
 import MSG from "@utils/locale.en.json";
 import Mongoose from "mongoose";
+import helper from "@/utils/helper";
 
 class UserService {
 
@@ -125,11 +126,11 @@ class UserService {
 		return findUser;
 	}
 
-	public async findUserByResetToken(resetToken: string): Promise<User> {
-		if (isEmpty(resetToken))
+	public async findUserByResetToken(token: string): Promise<User> {
+		if (isEmpty(token))
 			throw new HttpException(400, MSG.FIELDS_MISSING);
 		const findUser: User = await this.users.findOne({
-			resetToken: resetToken,
+			token:token,
 			isDeleted: false,
 		});
 		return findUser;
@@ -157,11 +158,13 @@ class UserService {
 			MSG.EMAIL_IN_USE.replace("%email%", userData.email)
 		);}else{
 			const hashedPassword = await bcrypt.hash(userData.password, 10);
-		console.log(hashedPassword)
+			const token = await helper.generateHash()
+		// console.log(hashedPassword)
 		console.log(userData)
 		const createUserData: User = await this.users.create({
 			...userData,
 			password: hashedPassword,
+			token:token
 		});
 
 		console.log(createUserData)
@@ -221,10 +224,10 @@ class UserService {
 	}
 
 	public async resetToken(userId: string): Promise<User> {
-		const resetToken: string = await Helper.generateHash();
+		// const resetToken: string = await Helper.generateHash();
 		const updateUserById: User = await this.users.findByIdAndUpdate(
 			userId,
-			{ resetToken: resetToken },
+			{ resetToken: "" ,emailVarification:true,status:true},
 			{ new: true }
 		);
 		if (!updateUserById) throw new HttpException(409, MSG.NO_DATA);

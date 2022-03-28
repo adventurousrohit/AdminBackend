@@ -34,8 +34,10 @@ class AuthRoute implements Route {
 		);
 		this.router.get(
 			`${this.path}/users`
+			
+			)
 
-		)
+		
 	}
 }
 

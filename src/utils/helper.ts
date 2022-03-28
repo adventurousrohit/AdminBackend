@@ -199,16 +199,18 @@ class Helper {
 						)} welcomes you to join our creative community, start exploring the resources or showcasing your work.
                     </p>`;
 					break;
-					case "account-verification":
+					case "send-activationLink":
+						let activation_link:String= `${config.get('siteUrl')}/verify/account/${this.generateHash()}`
 						title = `Account verification`;
+						
 						content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${
 							userData.name ? userData.name : userData.email
 						}!</p>
 						
 						<p style="margin: 0 0 24px;">
-							<strong>${userData.email}</strong> is your ${config.get(
+							<strong>${activation_link}</strong> is your ${config.get(
 							"siteTitle"
-						)} account verification code. You can use this code only once and it will auto expire after 5 minutes if not used.
+						)} account verification link. You can use this l only once and it will auto expire after 5 minutes if not used.
 						</p>`;
 						break;
 				default:
@@ -254,10 +256,9 @@ class Helper {
 
 
 	async defaultEntry(){
-	// const user = null
-		// console.log("heee")
+	
 		const user= await this.userService.findUserByRole('admin')
-		// console.log('gg',user)
+	
 	
 		
 		if(!user){
@@ -267,16 +268,22 @@ class Helper {
 				email: config.get("admin.email"),
 				role:[{slug:config.get("admin.role")}]  ,
 				password:config.get("admin.password"),
-				status:true
+				status:true,
+				emailVarification:true
 			})
 			
-			console.log(admin)
+		
 		const defaultAdmin = this.userService.createUser(admin)
 
 
 		}
 
 	}
+
+	// async testing(){
+	// 	let hash = this.generateHash()
+	// 	console.log(hash)
+	// }
 
 }
 export default new Helper();

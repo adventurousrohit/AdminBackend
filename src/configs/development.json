@@ -21,11 +21,11 @@
         "url": "https://bucket.s3-us-east-2.amazonaws.com/"
     },
     "mail": {
-        "from": "",
-        "host": "",
+        "from": "301996rohit@gmail.com",
+        "host": "301996rohit@gmail.com",
         "port": 465,
-        "user": "",
-        "pass": ""
+        "user": "301996rohit@gmail.com",
+        "pass": "aqlwfuvpmdgshejo"
     },
     "twilio": {
         "sid": "",

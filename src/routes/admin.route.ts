@@ -31,6 +31,10 @@ class AdminRoute implements Route{
             `${this.path}/`
 
         )
+        this.router.get(
+			`${this.path}/email/verified`,
+			this.adminController.accountActivation
+		)
     }
 
     

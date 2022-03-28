@@ -10,5 +10,9 @@ export interface User {
 	password: string;
 	// profileImage: string;
 	status: boolean;
+	mobileVarification:boolean;
+	emailVarification:boolean;
+	token:string
+
     
 }

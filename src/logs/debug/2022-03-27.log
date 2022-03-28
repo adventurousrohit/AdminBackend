@@ -1,0 +1,11 @@
+2022-03-27 13:46:53 info: =================================
+2022-03-27 13:46:53 info: ======= ENV: development =======
+2022-03-27 13:46:53 info: 🚀 App listening on the port 5000
+2022-03-27 13:46:53 info: =================================
+2022-03-27 13:46:53 info: [0mGET /api-docs/ [32m200[0m 173.448 ms - 1021[0m
+2022-03-27 13:46:54 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 299.577 ms - -[0m
+2022-03-27 13:46:54 info: [0mGET /api-docs/swagger-load.js [32m200[0m 10.372 ms - 604[0m
+2022-03-27 13:46:54 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 2.357 ms - -[0m
+2022-03-27 13:46:54 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 148.312 ms - -[0m
+2022-03-27 13:46:55 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 1.563 ms - 628[0m
+2022-03-27 13:46:55 info: [0mGET /swagger.yaml [32m200[0m 3.916 ms - -[0m

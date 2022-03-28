@@ -56,6 +56,7 @@ class App {
             logger.info(`${error}`)
 		);
         Helper.defaultEntry()
+        
     }
 
     private initializeMiddlewares() {
