@@ -8,10 +8,10 @@ const roleSchema:Schema = new Schema(
       role:[{
         slug:{
             type:String,
-            unique:true,
-            enum:ROLES
+            unique:true, 
         },
-        permission:true
+        enum:ROLES,
+        // permission:true
 
        
     } ]   

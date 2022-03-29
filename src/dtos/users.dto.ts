@@ -21,11 +21,11 @@ export class CreateUserDto {
 	@IsNotEmpty()
 	@IsArray()
 	@IsString()
-	public role:Array<Object>;
+	public role:Array<{slug:String}>;
 
-	@IsNotEmpty()
-	@IsString()
-	public slug:string
+	// @IsNotEmpty()
+	// @IsString()
+	// public slug:string
 
 	@IsEmail()
 	public email: string;

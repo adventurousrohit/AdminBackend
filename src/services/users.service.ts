@@ -16,14 +16,14 @@ class UserService {
 
 	public async findAllUser(filter: any): Promise<User[]> {
 		let cond: any = {
-			status: true,
+			status: false,
 			isDeleted: false,
 		};
 		if (filter && !isEmpty(filter)) Object.assign(cond, filter);
 
 		let project: any = {
 			name: 1,
-			role: 1,
+			role: [],
 			email: 1,
 			gender: 1,
 			mobile: 1,
@@ -258,6 +258,7 @@ class UserService {
 		return updateUserById;
     }
 	public async pushRole(userId:any,role:any):Promise<User>{
+		
 		let update ={
 			$push:role
 		}
@@ -277,11 +278,11 @@ class UserService {
 		// console.log(update)
 		const findUser:User= await this.users.findById(userId)
 		const update = findUser.role
-		// const updateUserByRole: User = await this.users.updateOne(
-		// 	userId,
-		// 	update,
-		// 	{ new: true }
-		// );
+		const updateUserByRole: User = await this.users.updateOne(
+			userId,
+			update,
+			{ new: true }
+		);
 		if (!updateUserByRole) throw new HttpException(409, MSG.NO_DATA);
 		return updateUserByRole;
 

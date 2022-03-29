@@ -1,15 +1,16 @@
 import config from "config";
 import moment from "moment";
 import aws from "aws-sdk";
-// import userModel from "../models/users.model"
+import Role from "@models/roles.model"
 import { User } from "@interfaces/users.interface";
+// import {Withoutid} from "@interfaces/users.interface"
 import UserService from "@/services/users.service";
 import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
 import { getMaxListeners } from "process";
 import {Roles} from "@/interfaces/roles.interface"
 import { Schema } from "mongoose";
 class Helper {
-	
+	// role = Role
     userService = new UserService()
 	async getSignedUrlAWS(
 		fileName: any,
@@ -258,20 +259,21 @@ class Helper {
 	async defaultEntry(){
 	
 		const user= await this.userService.findUserByRole('admin')
-	
-	
-		
+ 
+		type WithoutId = Omit<User, '_id'|"token">;
 		if(!user){
-			const admin:User =({
+			const admin:WithoutId =({
 				name: config.get("admin.name"),
 				mobile: config.get("admin.mobile"),
 				email: config.get("admin.email"),
 				role:[{slug:config.get("admin.role")}]  ,
 				password:config.get("admin.password"),
 				status:true,
-				emailVarification:true
+				emailVarification:true,
+				mobileVarification:true
+
 			})
-			
+		
 		
 		const defaultAdmin = this.userService.createUser(admin)
 
@@ -285,7 +287,8 @@ class Helper {
 	// 	console.log(hash)
 	// }
 
-	async rolesCreation(){
+	async setRoles(){
+		
 		
 	}
 

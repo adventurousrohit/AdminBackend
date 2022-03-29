@@ -3,8 +3,8 @@ export interface User {
     // firstName: string;
     // lastName: string;
 	name:string;
-	role:Array<object>;
-	// slug:String;
+	role:Array<{slug:String;}>;
+	
 	email: string;
 	mobile: string;
 	password: string;
@@ -16,3 +16,4 @@ export interface User {
 
     
 }
+export type Withoutid = Omit<User,"  _id: string">;

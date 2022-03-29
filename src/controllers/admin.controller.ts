@@ -89,13 +89,21 @@ class Admincontroller {
       if(!findEmployee)
       throw new HttpException(409,MSG.EMAIL_NOT_FOUND)
       let _id = findEmployee._id
+      
+      console.log(req.body.role)
+      // for(let i =0;i<findEmployee.role.length;i++){
+      //   let role:String= req.body.role
+      //   console.log(role)
+      //   console.log(findEmployee.role[i].slug)
+      //   if(role===findEmployee.role[i].slug){
+      //     return true
+      //   }
+      
+      // }
+      
+      
+      const roleCheck=findEmployee.role.forEach((roleItem)=>{if(req.body.role===roleItem.slug)throw new HttpException(409,MSG.ALREADY_EXIST)})
       req.body.role=[{slug:req.body.role}]
-  
-   
-    
-      console.log(findEmployee.role.slug)
-      if(req.body.role)
-      throw new HttpException(409,MSG.ALREADY_EXIST)
       const updateRole = await this.UserService.pushRole(_id,{role:req.body.role})
       res.send(updateRole)
     }catch(error){next(error)}
