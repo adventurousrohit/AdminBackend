@@ -28,13 +28,21 @@ class AdminRoute implements Route{
             this.adminController.findEmployee
         );
         this.router.get(
-            `${this.path}/`
+            `${this.path}/users`
 
         )
         this.router.get(
 			`${this.path}/email/verified`,
 			this.adminController.accountActivation
 		)
+        this.router.put(
+            `${this.path}/user/update/role`,
+            this.adminController.updateRole
+        )
+        this.router.put(
+            `${this.path}/user/remove/role`,
+            this.adminController.deleteRole
+        )
     }
 
     

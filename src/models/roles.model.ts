@@ -11,7 +11,7 @@ const roleSchema:Schema = new Schema(
             unique:true,
             enum:ROLES
         },
-        permission:[]
+        permission:true
 
        
     } ]   

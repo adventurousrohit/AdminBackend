@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\rohit\\typescriptBackend\\src\\logs\\debug\\.ba3bb6168f02dbf431a8506ec9adf2f4fe9d7315-audit.json",
+    "files": [
+        {
+            "date": 1648474123489,
+            "name": "C:\\rohit\\typescriptBackend\\src\\logs\\debug\\2022-03-28.log",
+            "hash": "1199ce7d56cd2671a816a2544bbcff27"
+        },
+        {
+            "date": 1648529328516,
+            "name": "C:\\rohit\\typescriptBackend\\src\\logs\\debug\\2022-03-29.log",
+            "hash": "7e454eb75a0e9c1eb888ad086f019bc1"
+        }
+    ]
+}

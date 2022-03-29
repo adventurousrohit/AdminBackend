@@ -13,7 +13,7 @@ import helper from "@/utils/helper";
 
 class Admincontroller {
   public UserService = new userService();
-
+  // to create Profile of User
   public createUser = async (
     req: RequestWithUser,
     res: Response,
@@ -53,7 +53,7 @@ class Admincontroller {
         next(error)
     }
   };
-
+//  To find User 
   public findEmployee= async (req:Request,res:Response,next:NextFunction)=>{
       try{
         let cond = {"role.slug":"employee"}
@@ -69,16 +69,52 @@ class Admincontroller {
       }catch(error){next(error)}
 
   }
+  // for account activation
   public accountActivation = async (req:Request,res:Response,next:NextFunction)=>{
     try{
       let token = req.params.token
-      const findToken = this.UserService.findUserByResetToken(token)
+      const findToken = await this.UserService.findUserByResetToken(token)
       if(!findToken)
       throw new HttpException(409, MSG.ACTIVATION_FAILED);
       const _id= (await findToken)._id
       this.UserService.resetToken(_id)
       
-    }catch{}
+    }catch(error){next(error)}
+  }
+  // controller for push role in User Profile by Admin
+  public updateRole = async (req:Request,res:Response,next:NextFunction)=>{
+    try{
+      const email = req.body.email
+      const findEmployee= await this.UserService.findUserByEmail(email)
+      if(!findEmployee)
+      throw new HttpException(409,MSG.EMAIL_NOT_FOUND)
+      let _id = findEmployee._id
+      req.body.role=[{slug:req.body.role}]
+  
+   
+    
+      console.log(findEmployee.role.slug)
+      if(req.body.role)
+      throw new HttpException(409,MSG.ALREADY_EXIST)
+      const updateRole = await this.UserService.pushRole(_id,{role:req.body.role})
+      res.send(updateRole)
+    }catch(error){next(error)}
+  }
+
+
+  // controller for pull role in User Profile by Admin
+  public deleteRole = async (req:Request,res:Response,next:NextFunction)=>{
+    try{
+      req.body.role=[{slug:req.body.role}]
+      const email = req.body.email
+      const findEmployee= await this.UserService.findUserByEmail(email)
+      if(!findEmployee)
+      throw new HttpException(409,MSG.EMAIL_NOT_FOUND)
+      let _id = findEmployee._id
+      const updateRole= await this.UserService.pullRole(_id,{"role":req.body.role})
+      res.send(updateRole)
+
+    }catch(error){next(error)}
   }
 
 }

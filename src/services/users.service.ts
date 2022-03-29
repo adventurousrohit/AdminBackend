@@ -257,6 +257,35 @@ class UserService {
 		if (!updateUserById) throw new HttpException(409, MSG.NO_DATA);
 		return updateUserById;
     }
+	public async pushRole(userId:any,role:any):Promise<User>{
+		let update ={
+			$push:role
+		}
+		const updateUserByRole: User = await this.users.findByIdAndUpdate(
+			userId,
+			update,
+			{ new: true }
+		);
+		if (!updateUserByRole) throw new HttpException(409, MSG.NO_DATA);
+		return updateUserByRole;
+
+	}
+	public async pullRole(userId:any,role:any):Promise<User>{
+		// let update ={
+		// 	$pull:role
+		// }
+		// console.log(update)
+		const findUser:User= await this.users.findById(userId)
+		const update = findUser.role
+		// const updateUserByRole: User = await this.users.updateOne(
+		// 	userId,
+		// 	update,
+		// 	{ new: true }
+		// );
+		if (!updateUserByRole) throw new HttpException(409, MSG.NO_DATA);
+		return updateUserByRole;
+
+	}
 
 }
 

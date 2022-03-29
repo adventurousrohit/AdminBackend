@@ -1,0 +1,10 @@
+2022-03-28 18:58:55 error: uncaughtException: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\rohit\typescriptBackend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:197:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2022-03-28 18:59:11 error: uncaughtException: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\rohit\typescriptBackend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:197:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)

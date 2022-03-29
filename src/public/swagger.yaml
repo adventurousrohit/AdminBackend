@@ -219,7 +219,7 @@ paths:
       summary: creating employee by admin
       operationId: Create
       tags:
-        - auth
+        - admin
       requestBody:
         required: true
         content:
@@ -251,6 +251,68 @@ paths:
       responses:
         '201':
           description: Created
+        '400':
+          description: Bad Request
+        '409':
+          description: Conflict
+        '500':
+          description: Server Error
+  /admin/user/update/role:
+    put:
+      summary: updating role 
+      operationId: Update
+      tags:
+        - admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - role
+              properties:
+                email:
+                  type: string
+                  example: raviroshanmehta@gmail.com
+                role:
+                  type: string
+                  example: employee
+      responses:
+        '201':
+          description: Updated
+        '400':
+          description: Bad Request
+        '409':
+          description: Conflict
+        '500':
+          description: Server Error
+  /admin/user/remove/role:
+    put:
+      summary: updating role 
+      operationId: remove 
+      tags:
+        - admin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - role
+              properties:
+                email:
+                  type: string
+                  example: raviroshanmehta@gmail.com
+                role:
+                  type: string
+                  example: employee
+      responses:
+        '201':
+          description: Updated
         '400':
           description: Bad Request
         '409':
