@@ -16,6 +16,7 @@
     "copy-files": "sudo cp -r src/public/ src/views/ dist/ && echo 'Build created successfully'"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.181",
     "aws-sdk": "^2.937.0",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.4.0",
@@ -35,6 +36,8 @@
     "hpp": "^0.2.3",
     "jest": "^27.0.4",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "lodash.chunk": "^4.2.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "mongoose": "^5.10.1",

@@ -201,7 +201,7 @@ class Helper {
                     </p>`;
 					break;
 					case "send-activationLink":
-						let activation_link:String= `${config.get('siteUrl')}/verify/account/${userData.token}`
+						let activation_link:String= `${config.get('siteUrl')}/api/admin/email/verified/${userData.token}`
 						title = `Account verification`;
 						
 						content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${

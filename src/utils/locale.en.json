@@ -35,6 +35,7 @@
 	"NOT_ADMIN":"you are not Authorized to add user",
 	"USER_EXIST":"User is already exist",
 	"NOT_AUTHORIZED":"you are not Authorized",
-	"ACTIVATION_FAILED":"Activation failed",
-	"ALREADY_EXIST":"Already Assigned"
+	"ACTIVATION_FAILED":"Link Expired",
+	"ALREADY_EXIST":"Already Assigned",
+	"AUTH_SUCCES":"%email% verified succesful"
 }

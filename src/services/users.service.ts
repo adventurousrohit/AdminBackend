@@ -1,9 +1,10 @@
 import bcrypt from "bcryptjs";
 import { CreateUserDto } from "@dtos/users.dto";
 import HttpException from "@exceptions/HttpException";
-import { User } from "@interfaces/users.interface";
+import { User} from "@interfaces/users.interface";
 import userModel from "@models/users.model";
 import { isEmpty } from "@utils/util";
+import {UpdateWriteOpResult} from 'mongodb';
 
 import Helper from "@/utils/helper";
 import MSG from "@utils/locale.en.json";
@@ -227,7 +228,7 @@ class UserService {
 		// const resetToken: string = await Helper.generateHash();
 		const updateUserById: User = await this.users.findByIdAndUpdate(
 			userId,
-			{ resetToken: "" ,emailVarification:true,status:true},
+			{ token:"" ,emailVarification:true,status:true},
 			{ new: true }
 		);
 		if (!updateUserById) throw new HttpException(409, MSG.NO_DATA);
@@ -258,13 +259,9 @@ class UserService {
 		return updateUserById;
     }
 	public async pushRole(userId:any,role:any):Promise<User>{
-		
-		let update ={
-			$push:role
-		}
 		const updateUserByRole: User = await this.users.findByIdAndUpdate(
 			userId,
-			update,
+			{$push:role},
 			{ new: true }
 		);
 		if (!updateUserByRole) throw new HttpException(409, MSG.NO_DATA);
@@ -276,14 +273,13 @@ class UserService {
 		// 	$pull:role
 		// }
 		// console.log(update)
-		const findUser:User= await this.users.findById(userId)
-		const update = findUser.role
-		const updateUserByRole: User = await this.users.updateOne(
+		// const findUser:User= await this.users.findById(userId)
+		// const update = findUser.role
+		const updateUserByRole = await this.users.findByIdAndUpdate(
 			userId,
-			update,
+			{$pull:role},
 			{ new: true }
 		);
-		if (!updateUserByRole) throw new HttpException(409, MSG.NO_DATA);
 		return updateUserByRole;
 
 	}

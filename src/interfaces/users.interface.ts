@@ -16,4 +16,11 @@ export interface User {
 
     
 }
-export type Withoutid = Omit<User,"  _id: string">;
+export interface UpdateWriteOpResult {
+    result: { ok: number; n: number; nModified: number };
+    connection: any;
+    matchedCount: number;
+    modifiedCount: number;
+    upsertedCount: number;
+   
+}

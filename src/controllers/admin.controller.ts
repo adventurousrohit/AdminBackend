@@ -10,6 +10,8 @@ import moment from "moment";
 import config from "config";
 import MSG from "@utils/locale.en.json";
 import helper from "@/utils/helper";
+import "lodash"
+import _ from "lodash";
 
 class Admincontroller {
   public UserService = new userService();
@@ -40,6 +42,7 @@ class Admincontroller {
       if (req.body.email && req.body.email.length > 0) {
 				let usrObj = {
 					email: employeeData.email,
+          token:employeeData.token
 				};
         Helper.mailStaticTemplates("send-activationLink",usrObj)
       }
@@ -73,14 +76,20 @@ class Admincontroller {
   public accountActivation = async (req:Request,res:Response,next:NextFunction)=>{
     try{
       let token = req.params.token
+      console.log(token,"hi")
       const findToken = await this.UserService.findUserByResetToken(token)
       if(!findToken)
       throw new HttpException(409, MSG.ACTIVATION_FAILED);
       const _id= (await findToken)._id
-      this.UserService.resetToken(_id)
+     const resetToken= this.UserService.resetToken(_id)
+     if(resetToken)
+     throw new HttpException(409, MSG.AUTH_SUCCES.replace("%email%",findToken.email));
+      
       
     }catch(error){next(error)}
   }
+
+
   // controller for push role in User Profile by Admin
   public updateRole = async (req:Request,res:Response,next:NextFunction)=>{
     try{
@@ -91,21 +100,18 @@ class Admincontroller {
       let _id = findEmployee._id
       
       console.log(req.body.role)
-      // for(let i =0;i<findEmployee.role.length;i++){
-      //   let role:String= req.body.role
-      //   console.log(role)
-      //   console.log(findEmployee.role[i].slug)
-      //   if(role===findEmployee.role[i].slug){
-      //     return true
-      //   }
+      const role = req.body.role
+      const index = _.findIndex(findEmployee.role,["slug",role])
+      console.log(index)
+      if(index>=0){
+        throw new HttpException(409,MSG.ALREADY_EXIST)
+      }else{
+        req.body.role=[{slug:req.body.role}]
+        const updateRole = await this.UserService.pushRole(_id,{role:req.body.role})
+        res.send(updateRole)
+      }
+   
       
-      // }
-      
-      
-      const roleCheck=findEmployee.role.forEach((roleItem)=>{if(req.body.role===roleItem.slug)throw new HttpException(409,MSG.ALREADY_EXIST)})
-      req.body.role=[{slug:req.body.role}]
-      const updateRole = await this.UserService.pushRole(_id,{role:req.body.role})
-      res.send(updateRole)
     }catch(error){next(error)}
   }
 
@@ -113,14 +119,38 @@ class Admincontroller {
   // controller for pull role in User Profile by Admin
   public deleteRole = async (req:Request,res:Response,next:NextFunction)=>{
     try{
-      req.body.role=[{slug:req.body.role}]
+      // req.body.role=[{slug:req.body.role}]
       const email = req.body.email
       const findEmployee= await this.UserService.findUserByEmail(email)
       if(!findEmployee)
       throw new HttpException(409,MSG.EMAIL_NOT_FOUND)
-      let _id = findEmployee._id
-      const updateRole= await this.UserService.pullRole(_id,{"role":req.body.role})
-      res.send(updateRole)
+      const role = req.body.role
+      const index = _.findIndex(findEmployee.role,["slug",role])
+      if(index>=0){
+        const deleteRole = await this.UserService.pullRole(findEmployee._id,role)
+      }
+      else{
+        throw new HttpException(409,MSG.ALREADY_EXIST)
+
+      }
+      
+      // const removeRole = await this.UserService.pullRole({_id:findEmployee._id},req.body.role)
+      // res.send(removeRole)
+
+      // findEmployee.role.forEach((roleItem)=>{
+      //   console.log(req.body.role,roleItem.slug)
+      //   if(req.body.role===roleItem.slug)
+      //   {this.UserService.pullRole(roleItem)
+      //     // res.send(findEmployee)
+        // }
+      // });
+      // res.send(findEmployee)
+      
+      // throw new HttpException(409,MSG.EMAIL_NOT_FOUND)
+
+      // let _id = findEmployee._id
+      // const updateRole= await this.UserService.pullRole(_id,{"role":req.body.role})
+      // res.send(updateRole)
 
     }catch(error){next(error)}
   }

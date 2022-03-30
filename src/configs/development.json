@@ -22,7 +22,7 @@
     },
     "mail": {
         "from": "301996rohit@gmail.com",
-        "host": "301996rohit@gmail.com",
+        "host": "smtp.gmail.com",
         "port": 465,
         "user": "301996rohit@gmail.com",
         "pass": "aqlwfuvpmdgshejo"

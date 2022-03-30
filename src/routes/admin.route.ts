@@ -32,7 +32,8 @@ class AdminRoute implements Route{
 
         )
         this.router.get(
-			`${this.path}/email/verified`,
+			`${this.path}/email/verified/:token`,
+            // ()=>{console.log("token")},
 			this.adminController.accountActivation
 		)
         this.router.put(

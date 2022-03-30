@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\rohit\\backend\\typescriptBackend\\src\\logs\\error\\.d9b5267e3c39d1855f1ad8dbcdd55df398e33d9d-audit.json",
+    "files": [
+        {
+            "date": 1648616550947,
+            "name": "C:\\rohit\\backend\\typescriptBackend\\src\\logs\\error\\2022-03-30.log",
+            "hash": "ac1cc96ca8ce0bec0475a790c173965a"
+        }
+    ]
+}
