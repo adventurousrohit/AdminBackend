@@ -18,32 +18,65 @@ class AdminRoute implements Route{
         this.intializeRoutes()
         
     }
+    // Create user
     private intializeRoutes(){
         this.router.post(
-            `${this.path}/createEmployees`,
+            `${this.path}/create-user`,
             this.adminController.createUser
         );
+        // find user by role
         this.router.get(
-            `${this.path}/employee/details`,
+            `${this.path}/user-details/:role`,
+            // ()=>{console.log('helo')},
             this.adminController.findEmployee
         );
-        this.router.get(
-            `${this.path}/users`
+        // this.router.get(
+        //     `${this.path}/users/{email}`
 
-        )
+        // )
+
+        //  verifying account
         this.router.get(
 			`${this.path}/email/verified/:token`,
             // ()=>{console.log("token")},
 			this.adminController.accountActivation
 		)
-        this.router.put(
-            `${this.path}/user/update/role`,
+
+        
+
+
+        //  update user role
+        this.router.patch(
+            `${this.path}/user/update-role/:email`,
             this.adminController.updateRole
         )
+        // this.router.put(
+        //     `${this.path}/user/remove/role`,
+        //     this.adminController.deleteRole
+        // )
+
+
+        // update user profile
         this.router.put(
-            `${this.path}/user/remove/role`,
-            this.adminController.deleteRole
+            `${this.path}/user/update-profile/:id`,
+            this.adminController.updateUser
+
         )
+
+        // delete user profile
+        this.router.delete(
+            `${this.path}/delete-user/:id`,
+            // ()=>{console.log("delete")},
+            this.adminController.deleteUser
+        )
+    
+        this.router.get(
+			`${this.path}/users/export/:role`,
+            // ()=>{console.log("token")},
+            this.adminController.savedataInExcel
+            
+           
+		)
     }
 
     

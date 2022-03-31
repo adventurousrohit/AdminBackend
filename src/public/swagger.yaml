@@ -214,7 +214,7 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/createEmployees:
+  /admin/create-user:
     post:
       summary: creating employee by admin
       operationId: Create
@@ -257,12 +257,20 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/user/update/role:
-    put:
+  /admin/user/update-role/{email}:
+    patch:
       summary: updating role 
       operationId: Update
       tags:
         - admin
+      parameters:
+        - in: path
+          name: email
+          schema:
+            type: string
+          required: true
+          description: Email ID of the user
+          example: 301996rohit@gmail.com
       requestBody:
         required: true
         content:
@@ -270,12 +278,12 @@ paths:
             schema:
               type: object
               required:
-                - email
+                - type
                 - role
               properties:
-                email:
+                type:
                   type: string
-                  example: raviroshanmehta@gmail.com
+                  example: push
                 role:
                   type: string
                   example: employee
@@ -288,12 +296,20 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/user/remove/role:
+  /admin/user/update-profile/{id}:
     put:
-      summary: updating role 
-      operationId: remove 
+      summary: update profile 
+      operationId: Update profile 
       tags:
         - admin
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the user
+          example: 62441f31a8fe8d1fc8632bd8
       requestBody:
         required: true
         content:
@@ -319,12 +335,45 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/employee/details:
+  /admin/delete-user/{id}:
+    delete:
+      summary: deleteUser
+      operationId: delete
+      tags:
+        - admin
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the user
+          example: 62441f31a8fe8d1fc8632bd8
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '201':
+          description: OK
+        '400':
+          description: Bad Request
+        '409':
+          description: Conflict
+        '500':
+          description: Server Error
+  /admin/user-details/{role}:
     get:
       summary: UserDetails
       operationId: Users
       tags:
         - admin
+      parameters:
+        - in: path
+          name: role
+          schema:
+            type: string
+          required: true
+          description: Role of the user
+          example: HR    
       security:
         - ApiKeyAuth: []
       responses:
@@ -336,12 +385,21 @@ paths:
           description: Conflict
         '500':
           description: Server Error
-  /admin/email/verified:
+  
+  /admin/users/export/{role}:
     get:
       summary: UserDetails
       operationId: Users
       tags:
         - admin
+      parameters:
+        - in: path
+          name: role
+          schema:
+            type: string
+          required: true
+          description: Role of the user
+          example: HR    
       security:
         - ApiKeyAuth: []
       responses:
@@ -353,6 +411,7 @@ paths:
           description: Conflict
         '500':
           description: Server Error
+  
   /auth/social-login:
     post:
       summary: Social Login
@@ -394,6 +453,25 @@ paths:
           description: Conflict
         '500':
           description: Server Error
+  # /auth/log:
+  #   delete:
+  #     summary: delete
+  #     operationId: dwlwte
+  #     tags:
+  #       - admin
+  #     security:
+  #       - ApiKeyAuth: []
+  #     responses:
+  #       '200':
+  #         description: OK
+  #       '400':
+  #         description: Bad Request
+  #       '409':
+  #         description: Conflict
+  #       '500':
+  #         description: Server Error
+
+    
   /auth/logout:
     get:
       summary: Logout

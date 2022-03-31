@@ -115,13 +115,14 @@ class UserService {
 			throw new HttpException(400, MSG.FIELDS_MISSING);
 			
 			
-		const findUser: User = await this.users.findOne({
+		const findUser:User = await this.users.find({
 			role:{$elemMatch:{slug:userRole}},
-		
 			isDeleted: false,
-		},(error,result)=>{
+		}
+		,(error,result)=>{
 			if(error){console.log(error)}
-		});
+		}
+		);
 		// console.log('find',findUser)
 		
 		return findUser;
@@ -221,7 +222,9 @@ class UserService {
 			{ new: true }
 		);
 		if (!updateUserById) throw new HttpException(409, MSG.NO_DATA);
+		// console.log(updateUserById)
 		return updateUserById;
+		
 	}
 
 	public async resetToken(userId: string): Promise<User> {
@@ -241,6 +244,8 @@ class UserService {
 		return deleteUserById;
 	}
 
+
+
     public async favourite(loginId: string, userId: string, action: string): Promise<User>{
         let update: any = {
 			$pull: { favourites: userId },
@@ -258,6 +263,8 @@ class UserService {
 		if (!updateUserById) throw new HttpException(409, MSG.NO_DATA);
 		return updateUserById;
     }
+
+
 	public async pushRole(userId:any,role:any):Promise<User>{
 		const updateUserByRole: User = await this.users.findByIdAndUpdate(
 			userId,
@@ -268,21 +275,32 @@ class UserService {
 		return updateUserByRole;
 
 	}
-	public async pullRole(userId:any,role:any):Promise<User>{
-		// let update ={
-		// 	$pull:role
-		// }
+	public async pullRole(userId:any,userRole:any):Promise<User>{
+		let update ={
+			$pull:{role:{slug:userRole}}
+		}
+		console.log(update)
 		// console.log(update)
 		// const findUser:User= await this.users.findById(userId)
 		// const update = findUser.role
 		const updateUserByRole = await this.users.findByIdAndUpdate(
 			userId,
-			{$pull:role},
+			update,
 			{ new: true }
 		);
-		return updateUserByRole;
-
+		return updateUserByRole
 	}
+
+	public async findUserById(userId: string): Promise<User> {
+		if (isEmpty(userId))
+			throw new HttpException(400, MSG.FIELDS_MISSING);
+		const findUser: User = await this.users.findOne({
+			_id:userId,
+			isDeleted: false,
+		});
+		return findUser;
+	}
+
 
 }
 

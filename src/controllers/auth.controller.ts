@@ -19,7 +19,7 @@ class AuthController {
 		try {
 			
 			const userData: CreateUserDto = req.body;
-			const userRole  = userData.role[0]
+			const userRole  = userData.role[0].slug
 
 			if (userRole!=='admin')
 				throw new HttpException(

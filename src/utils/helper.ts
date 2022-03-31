@@ -259,6 +259,7 @@ class Helper {
 	async defaultEntry(){
 	
 		const user= await this.userService.findUserByRole('admin')
+		// console.log(user)
  
 		type WithoutId = Omit<User, '_id'|"token">;
 		if(!user){

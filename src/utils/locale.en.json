@@ -37,5 +37,7 @@
 	"NOT_AUTHORIZED":"you are not Authorized",
 	"ACTIVATION_FAILED":"Link Expired",
 	"ALREADY_EXIST":"Already Assigned",
-	"AUTH_SUCCES":"%email% verified succesful"
+	"AUTH_SUCCES":"%email% verified succesful",
+	"USER_MISSING":"user not found",
+	"DELETED":"user %name% deleted succesfully"
 }
