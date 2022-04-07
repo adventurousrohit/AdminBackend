@@ -2,7 +2,7 @@ import { model, Schema, Document } from "mongoose";
 import { User } from "@interfaces/users.interface";
 // import Role from '@models/roles.model'
 
-const ROLES = ["admin", "employee", "HR", "PM", "client"];
+const ROLES = ["admin", "employee", "hr", "pm", "client"];
 
 const userSchema: Schema = new Schema(
   {

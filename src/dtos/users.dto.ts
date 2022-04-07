@@ -22,6 +22,13 @@ export class CreateUserDto {
 	@IsArray()
 	@IsString()
 	public role:Array<{slug:String}>;
+	
+	// @IsOptional()
+	// @IsObject()
+	// public social: {
+	// 	type: string;
+	// 	token: string;
+	// };
 
 	// @IsNotEmpty()
 	// @IsString()

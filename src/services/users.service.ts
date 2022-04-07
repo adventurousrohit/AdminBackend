@@ -4,9 +4,9 @@ import HttpException from "@exceptions/HttpException";
 import { User} from "@interfaces/users.interface";
 import userModel from "@models/users.model";
 import { isEmpty } from "@utils/util";
-import {UpdateWriteOpResult} from 'mongodb';
+// import {UpdateWriteOpResult} from 'mongodb';
 
-import Helper from "@/utils/helper";
+// import Helper from "@/utils/helper";
 import MSG from "@utils/locale.en.json";
 import Mongoose from "mongoose";
 import helper from "@/utils/helper";
@@ -108,14 +108,14 @@ class UserService {
 		return findUser;
 	}
 
-	public async findUserByRole(userRole:Object): Promise<User> {
+	public async findUserByRole(userRole:Object): Promise<Array<Object>> {
 		console.log("hlo",userRole)
 		
 		if (isEmpty(userRole))
 			throw new HttpException(400, MSG.FIELDS_MISSING);
 			
 			
-		const findUser:User = await this.users.find({
+		const findUser = await this.users.find({
 			role:{$elemMatch:{slug:userRole}},
 			isDeleted: false,
 		}

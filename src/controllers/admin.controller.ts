@@ -13,6 +13,10 @@ import helper from "@/utils/helper";
 import exceljs from "exceljs"
 import "lodash"
 import _ from "lodash";
+import pdf from "pdf-creator-node"
+import fs from "fs"
+import path from "path";
+
 
 class Admincontroller {
   public UserService = new userService();
@@ -61,9 +65,9 @@ class Admincontroller {
   public findEmployee = async (req: Request, res: Response, next: NextFunction) => {
     try {
       // let cond = { "role.slug": "employee" }
-      const userRole= req.params.role
-      console.log(userRole,"role")
-      
+      const userRole = req.params.role
+      console.log(userRole, "role")
+
       const userDetails = await this.UserService.findUserByRole(userRole)
       // console.log(userDetails)
       res.status(200).json({
@@ -100,14 +104,14 @@ class Admincontroller {
     try {
       const type = req.body.type
       if (type == "push") {
-        const email = req.params.email
-        // console.log(email)
-        const findEmployee = await this.UserService.findUserByEmail(email)
+        const _id = req.params.id
+        // console.log(_id)
+        const findEmployee = await this.UserService.findUserById(_id)
         if (!findEmployee)
           throw new HttpException(409, MSG.EMAIL_NOT_FOUND)
-        let _id = findEmployee._id
+        // let _id = findEmployee._id
 
-        console.log(req.body.role)
+        // console.log(req.body.role)
         const role = req.body.role
         const index = _.findIndex(findEmployee.role, ["slug", role])
         console.log(index)
@@ -119,9 +123,10 @@ class Admincontroller {
           res.send(updateRole)
         }
       }
-      else if(type=="pull") {
-        const email = req.params.email
-        const findEmployee = await this.UserService.findUserByEmail(email)
+      else if (type == "pull") {
+        const _id = req.params.id
+        console.log(_id)
+        const findEmployee = await this.UserService.findUserById(_id)
         if (!findEmployee)
           throw new HttpException(409, MSG.EMAIL_NOT_FOUND)
         const role = req.body.role
@@ -139,78 +144,111 @@ class Admincontroller {
     } catch (error) { next(error) }
   }
 
-  public updateUser = async (req:Request,res:Response,next:NextFunction)=>{
-    try{
+  public updateUser = async (req: Request, res: Response, next: NextFunction) => {
+    try {
       const _id = req.params.id
-      const findUser= this.UserService.findUserById(_id)
-      if(!findUser)
-      throw new HttpException(409, MSG.USER_MISSING)
+      const findUser = this.UserService.findUserById(_id)
+      if (!findUser)
+        throw new HttpException(409, MSG.USER_MISSING)
       const updateDetails = req.body
-      const updateUser =  await this.UserService.updateUser(_id,updateDetails)
+      const updateUser = await this.UserService.updateUser(_id, updateDetails)
       // console.log(updateUser)
       res.send(updateUser)
-    }catch(error){next(error)}
-  
+    } catch (error) { next(error) }
+
   }
 
-  public deleteUser = async (req:Request,res:Response,next:NextFunction)=>{
-    try{
+  public deleteUser = async (req: Request, res: Response, next: NextFunction) => {
+    try {
       console.log('hlo')
       const _id = req.params.id
-      console.log(_id,"id")
-      const findUser= this.UserService.findUserById(_id)
-      if(!findUser)
-      throw new HttpException(409, MSG.USER_MISSING)
+      console.log(_id, "id")
+      const findUser = this.UserService.findUserById(_id)
+      if (!findUser)
+        throw new HttpException(409, MSG.USER_MISSING)
       const deleteUser = await this.UserService.deleteUser(_id)
-      res.send(new HttpException(201,MSG.DELETED.replace("%name%",(await findUser).name)))
+      res.send(new HttpException(201, MSG.DELETED.replace("%name%", (await findUser).name)))
 
 
-    }catch(error){next(error)}
+    } catch (error) { next(error) }
   }
 
   // public test = async ()=>{
   //   console.log("yes")
 
   // }
-  public savedataInExcel = async (req:Request,res:Response,next:NextFunction)=>{
-    try{
-      console.log("hlo")
-      const userRole =req.params.role
-      console.log(userRole,"userRole")
+  public savedataInExcel = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      // console.log("hlo")
+      // const userRole =req.params.role
+      const userRole = req.query.role
+      // console.log(req.query.role,"userRole")
       const userDetails = await this.UserService.findUserByRole(userRole)
-      const workbook= new exceljs.Workbook();
+      if (!userDetails)
+        throw new HttpException(409, MSG.NO_DATA)
+      const workbook = new exceljs.Workbook();
       const worksheet = workbook.addWorksheet('My Users')
-      worksheet.columns=[
+      worksheet.columns = [
         // {header:"S.no",key:"s.no",width:10},
-        {header:"Name",key:"name",width:10},
-        {header:"Email",key:"email",width:10},
-        {header:"mobile",key:"mobile",width:10},
-        {header:"role",key:"role",width:10},
-        {header:"status",key:"status",width:10},
-        {header:"isDeleted",key:"isDeleted",width:10},
-        {header:"emailVarification",key:"emailVarification",width:10},
-        {header:"mobileVarification",key:"mobileVarification",width:10},
-        {header:"token",key:"token",width:10},
+        { header: "Name", key: "name", width: 10 },
+        { header: "Email", key: "email", width: 10 },
+        { header: "mobile", key: "mobile", width: 10 },
+        { header: "role", key: "role", width: 10 },
+        { header: "status", key: "status", width: 10 },
+        { header: "isDeleted", key: "isDeleted", width: 10 },
+        { header: "emailVarification", key: "emailVarification", width: 10 },
+        { header: "mobileVarification", key: "mobileVarification", width: 10 },
+        { header: "token", key: "token", width: 10 },
       ]
 
-      let count =1 
-      userDetails.forEach(user=>{
-        (user as any).s_no=count
+      let count = 1
+      userDetails.forEach(user => {
+        (user as any).s_no = count
         worksheet.addRow(user)
-        count +=1
+        count += 1
       })
-      worksheet.getRow(1).eachCell((cell)=>{
-        cell.font={bold:true}
+      worksheet.getRow(1).eachCell((cell) => {
+        cell.font = { bold: true }
       })
-    const date = await workbook.xlsx.writeFile("users.xlsx")
-    res.send("file saved")
+      const date = await workbook.xlsx.writeFile(`./src/public/file/welcome/users.xlsx`)
+      res.status(201).json({message:"file saved"})
 
-    }catch(error){next(error)}
+    } catch (error) { next(error) }
   }
 
+  // creating pdf using welcome note
+  //   public createPdf = async (req:Request,res:Response,next:NextFunction)=>{
+  //     const type =req.query.type 
+  //     if(type=='welcome-letter'){
+  //       const id = req.query.id as any
+  //       const user = await this.UserService.findUserById(id)
+  //       const createFile = Helper.updateFile(user)
+  //       res.send({message:"done"})
+  //     }
+  //   }
+
+  public createPdf = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const type = req.query.type
+      if (type == 'welcome-letter') {
+        const id = req.query.id as any
+        const user = await this.UserService.findUserById(id)
+        const pdf = helper.createPdf(user)
+        res.status(201).json({message:"pdf Created"})
+
+        
+
+      }
+
+
+    } catch(error){next(error) }
+
+  }
 
 }
-  // class end
+
+
+// class end
 
 
 

@@ -1,0 +1,7 @@
+2022-04-06 17:44:24 error: uncaughtException: ENOENT: no such file or directory, open './src/public/welcomeTemplates/form.html'
+Error: ENOENT: no such file or directory, open './src/public/welcomeTemplates/form.html'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Helper.createPdf (C:\rohit\backend\typescriptBackend\src\utils\helper.ts:296:17)
+    at createPdf (C:\rohit\backend\typescriptBackend\src\controllers\admin.controller.ts:235:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

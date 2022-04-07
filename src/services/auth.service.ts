@@ -10,6 +10,8 @@ import otpModel from "@models/otps.model";
 import UserService from "@services/users.service";
 import { isEmpty } from "@utils/util";
 import moment from "moment";
+import "lodash"
+import _ from "lodash";
 
 import MSG from "@utils/locale.en.json";
 import { truncate } from "fs";
@@ -44,23 +46,30 @@ class AuthService {
 		userData: CreateUserDto
 	): Promise<{ cookie: string; findUser: User; tokenData: any }> {
 		if (isEmpty(userData)) throw new HttpException(400, MSG.FIELDS_MISSING);
-		const role: string = userData.role;
-		console.log('role',role)
+		// userData.role = [{ slug: userData.role }]
+		// const role:Array<Object> = [{slug:userData.role}];
+		// console.log('role',role)
+		
 
 		const findUser: User = await this.userService.findUserByEmail(
 			userData.email
 		);
-		console.log('find',findUser.role[0].slug)
 		if (!findUser) throw new HttpException(409, MSG.NOT_REGISTERED);
+		// const index = _.findIndex(findUser.role, ["slug", userData.role])
+		// console.log(index)
+		// // console.log('find',findUser.role[0].slug)
+		
 
-		if (findUser && findUser.role[0].slug != role)
-			throw new HttpException(
-				409,
-				MSG.DIFFERENT_ROLE.replace(
-					"%role%",
-					role === "trainer" ? "user" : "trainer"
-				)
-			);
+		// if (index<0){
+		// 	console.log('hh')
+		// throw new HttpException(
+		// 	409,
+		// 	MSG.DIFFERENT_ROLE.replace(
+		// 		"%role%",
+		// 		findUser.name
+		// 	)
+		// );}
+		
 
 		if (findUser && findUser.status === false)
 			throw new HttpException(409, MSG.ACCOUNT_INACTIVE);
@@ -81,141 +90,141 @@ class AuthService {
 		return { cookie, findUser, tokenData };
 	}
 
-	public async socialogin(
-		userData: CreateUserDto
-	): Promise<{ cookie: string; findUser: User; tokenData: any }> {
-		if (isEmpty(userData)) throw new HttpException(400, MSG.FIELDS_MISSING);
+	// public async socialogin(
+	// 	userData: CreateUserDto
+	// ): Promise<{ cookie: string; findUser: User; tokenData: any }> {
+	// 	if (isEmpty(userData)) throw new HttpException(400, MSG.FIELDS_MISSING);
 
-		const role: string = userData.role;
-		//validation for already registered social user
-		let countUser: number = 0;
-		let updateData = null;
-		switch (role) {
-			case "trainer":
-				countUser = await this.userService.getUserCount(
-					"role",
-					"user",
-					{
-						$or: [
-							{
-								"social.type": userData.social.type,
-								"social.token": userData.social.token,
-							},
-							{
-								email: userData.email,
-							},
-						],
-					}
-				);
-				updateData = {
-					status: true,
-					isDeleted: false,
-					emailVerified: false,
-					...userData,
-				};
-                if(countUser === 0){
-                    updateData = {
-                        profileApproval: {
-                            status: "pending",
-                        },
-                        ...updateData
-                    }
-                }
-				break;
-			case "user":
-				countUser = await this.userService.getUserCount(
-					"role",
-					"trainer",
-					{
-						$or: [
-							{
-								"social.type": userData.social.type,
-								"social.token": userData.social.token,
-							},
-							{
-								email: userData.email,
-							},
-						],
-					}
-				);
-				updateData = {
-					status: true,
-					isDeleted: false,
-					emailVerified: false,
-					...userData,
-				};
-				break;
-			default:
-				break;
-		}
-		if (isEmpty(updateData))
-			throw new HttpException(400, MSG.FIELDS_MISSING);
+	// 	const role: string = userData.role;
+	// 	//validation for already registered social user
+	// 	let countUser: number = 0;
+	// 	let updateData = null;
+	// 	switch (role) {
+	// 		case "trainer":
+	// 			countUser = await this.userService.getUserCount(
+	// 				"role",
+	// 				"user",
+	// 				{
+	// 					$or: [
+	// 						{
+	// 							"social.type": userData.social.type,
+	// 							"social.token": userData.social.token,
+	// 						},
+	// 						{
+	// 							email: userData.email,
+	// 						},
+	// 					],
+	// 				}
+	// 			);
+	// 			updateData = {
+	// 				status: true,
+	// 				isDeleted: false,
+	// 				emailVerified: false,
+	// 				...userData,
+	// 			};
+    //             if(countUser === 0){
+    //                 updateData = {
+    //                     profileApproval: {
+    //                         status: "pending",
+    //                     },
+    //                     ...updateData
+    //                 }
+    //             }
+	// 			break;
+	// 		case "user":
+	// 			countUser = await this.userService.getUserCount(
+	// 				"role",
+	// 				"trainer",
+	// 				{
+	// 					$or: [
+	// 						{
+	// 							"social.type": userData.social.type,
+	// 							"social.token": userData.social.token,
+	// 						},
+	// 						{
+	// 							email: userData.email,
+	// 						},
+	// 					],
+	// 				}
+	// 			);
+	// 			updateData = {
+	// 				status: true,
+	// 				isDeleted: false,
+	// 				emailVerified: false,
+	// 				...userData,
+	// 			};
+	// 			break;
+	// 		default:
+	// 			break;
+	// 	}
+	// 	if (isEmpty(updateData))
+	// 		throw new HttpException(400, MSG.FIELDS_MISSING);
 
-		if (countUser > 0)
-			throw new HttpException(
-				409,
-				MSG.DIFFERENT_ROLE.replace(
-					"%role%",
-					role === "trainer" ? "user" : "trainer"
-				)
-			);
+	// 	if (countUser > 0)
+	// 		throw new HttpException(
+	// 			409,
+	// 			MSG.DIFFERENT_ROLE.replace(
+	// 				"%role%",
+	// 				role === "trainer" ? "user" : "trainer"
+	// 			)
+	// 		);
 
-		let findUser = null;
-		//first update if found
-		findUser = await this.users.findOneAndUpdate(
-			{
-				role: userData.role,
-				$or: [
-					{
-						"social.type": userData.social.type,
-						"social.token": userData.social.token,
-					},
-					{
-						email: userData.email,
-					},
-				],
-			},
-			updateData,
-			{
-				new: true,
-			}
-		);
+	// 	let findUser = null;
+	// 	//first update if found
+	// 	findUser = await this.users.findOneAndUpdate(
+	// 		{
+	// 			role: userData.role,
+	// 			$or: [
+	// 				{
+	// 					"social.type": userData.social.type,
+	// 					"social.token": userData.social.token,
+	// 				},
+	// 				{
+	// 					email: userData.email,
+	// 				},
+	// 			],
+	// 		},
+	// 		updateData,
+	// 		{
+	// 			new: true,
+	// 		}
+	// 	);
 
-		//insert if not found
-		if (!findUser && isEmpty(userData.email))
-			throw new HttpException(400, MSG.FIELDS_MISSING);
+	// 	//insert if not found
+	// 	if (!findUser && isEmpty(userData.email))
+	// 		throw new HttpException(400, MSG.FIELDS_MISSING);
 
-		findUser = await this.users.findOneAndUpdate(
-			{
-				role: userData.role,
-				$or: [
-					{
-						"social.type": userData.social.type,
-						"social.token": userData.social.token,
-					},
-					{
-						email: userData.email,
-					},
-				],
-			},
-			updateData,
-			{
-				new: true,
-				upsert: true,
-			}
-		);
-		if (!findUser)
-			throw new HttpException(
-				409,
-				MSG.EMAIL_NOT_FOUND.replace("%email%", userData.email)
-			);
+	// 	findUser = await this.users.findOneAndUpdate(
+	// 		{
+	// 			role: userData.role,
+	// 			$or: [
+	// 				{
+	// 					"social.type": userData.social.type,
+	// 					"social.token": userData.social.token,
+	// 				},
+	// 				{
+	// 					email: userData.email,
+	// 				},
+	// 			],
+	// 		},
+	// 		updateData,
+	// 		{
+	// 			new: true,
+	// 			upsert: true,
+	// 		}
+	// 	);
+	// 	if (!findUser)
+	// 		throw new HttpException(
+	// 			409,
+	// 			MSG.EMAIL_NOT_FOUND.replace("%email%", userData.email)
+	// 		);
 
-		const tokenData = this.createToken(findUser);
-		const cookie = this.createCookie(tokenData);
-        findUser = findUser.toObject();
-        findUser.dob = moment(findUser.dob).format('YYYY-MM-DD');        
-		return { cookie, findUser, tokenData };
-	}
+	// 	const tokenData = this.createToken(findUser);
+	// 	const cookie = this.createCookie(tokenData);
+    //     findUser = findUser.toObject();
+    //     findUser.dob = moment(findUser.dob).format('YYYY-MM-DD');        
+	// 	return { cookie, findUser, tokenData };
+	// }
 
 	public async logout(userData: User): Promise<User> {
 		if (isEmpty(userData)) throw new HttpException(400, MSG.FIELDS_MISSING);

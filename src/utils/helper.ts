@@ -7,19 +7,28 @@ import { User } from "@interfaces/users.interface";
 import UserService from "@/services/users.service";
 import { ServiceConfigurationOptions } from "aws-sdk/lib/service";
 import { getMaxListeners } from "process";
-import {Roles} from "@/interfaces/roles.interface"
+import { Roles } from "@/interfaces/roles.interface"
 import { Schema } from "mongoose";
+import fs from 'fs'
+import path from "path";
+// import pdf from "pdf-creator-node"
+import pdf from 'html-pdf'
+
+
+
+
+
 class Helper {
 	// role = Role
-    userService = new UserService()
+	userService = new UserService()
 	async getSignedUrlAWS(
 		fileName: any,
 		signedUrlExpireSeconds: number = 60 * 60
-	) { 
-		
-		if(!fileName || (fileName && fileName.length===0))
+	) {
+
+		if (!fileName || (fileName && fileName.length === 0))
 			return "";
-        const serviceConfigOptions: ServiceConfigurationOptions = {
+		const serviceConfigOptions: ServiceConfigurationOptions = {
 			region: config.get("awsS3.bucketRegion"),
 			endpoint: new aws.Endpoint(config.get("awsS3.secretEntPoint")),
 			accessKeyId: config.get("awsS3.accessKeyId"),
@@ -27,12 +36,12 @@ class Helper {
 			signatureVersion: "v4",
 		};
 		const s3 = new aws.S3(serviceConfigOptions);
-        const url = s3.getSignedUrl("getObject", {
+		const url = s3.getSignedUrl("getObject", {
 			Bucket: config.get("awsS3.bucketName"),
 			Key: fileName,
 			Expires: signedUrlExpireSeconds,
 		});
-        return url;
+		return url;
 	}
 
 
@@ -52,10 +61,10 @@ class Helper {
 		s3.deleteObject({
 			Bucket: config.get("awsS3.bucketName"),
 			Key: fileName
-		}, (err, data) =>{
-			if(err) {
+		}, (err, data) => {
+			if (err) {
 				console.log('error occured', err)
-				
+
 			} else {
 				return true;
 			}
@@ -160,9 +169,8 @@ class Helper {
 					}
 
 					title = `Reset your login password`;
-					content = `<p style="font-weight: 600; font-size: 18px; margin-bottom: 0;">Hey ${
-						userData.name ? userData.name : userData.email
-					}!</p>
+					content = `<p style="font-weight: 600; font-size: 18px; margin-bottom: 0;">Hey ${userData.name ? userData.name : userData.email
+						}!</p>
                     <p class="sm-leading-32" style=""margin: 0 0 24px; font-weight: 400; font-size: 15px; margin: 0 0 16px; --text-opacity: 1; color: #263238; color: rgba(38, 50, 56, var(--text-opacity));">You just requested to reset your password.</p>
                     <p style="margin: 0 0 24px;">
                         Please reset your password by clicking the below link. If link is not working you may copy and paste below url in the browser to continue.
@@ -176,21 +184,19 @@ class Helper {
 					break;
 				case "send-otp":
 					title = `Account verification`;
-					content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${
-						userData.name ? userData.name : userData.email
-					}!</p>
+					content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${userData.name ? userData.name : userData.email
+						}!</p>
                     
                     <p style="margin: 0 0 24px;">
                         <strong>${userData.otp}</strong> is your ${config.get(
-						"siteTitle"
-					)} account verification code. You can use this code only once and it will auto expire after 5 minutes if not used.
+							"siteTitle"
+						)} account verification code. You can use this code only once and it will auto expire after 5 minutes if not used.
                     </p>`;
 					break;
 				case "signup-welcome":
-                    title = `Welcome ${userData.name ? userData.name : userData.email}`;
-					content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${
-						userData.name ? userData.name : userData.email
-					}!</p>
+					title = `Welcome ${userData.name ? userData.name : userData.email}`;
+					content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${userData.name ? userData.name : userData.email
+						}!</p>
                     <p class="sm-leading-32" style="font-weight: 600; font-size: 20px; margin: 0 0 16px; --text-opacity: 1; color: #263238; color: rgba(38, 50, 56, var(--text-opacity));">
                         Thanks for signing up! 👋
                     </p>
@@ -200,12 +206,11 @@ class Helper {
 						)} welcomes you to join our creative community, start exploring the resources or showcasing your work.
                     </p>`;
 					break;
-					case "send-activationLink":
-						let activation_link:String= `${config.get('siteUrl')}/api/admin/email/verified/${userData.token}`
-						title = `Account verification`;
-						
-						content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${
-							userData.name ? userData.name : userData.email
+				case "send-activationLink":
+					let activation_link: String = `${config.get('siteUrl')}/api/admin/email/verified/${userData.token}`
+					title = `Account verification`;
+
+					content = `<p style="font-weight: 600; font-size: 18px; margin: 0 0 24px;">Hey ${userData.name ? userData.name : userData.email
 						}!</p>
 						
 						<p style="margin: 0 0 24px;">
@@ -213,7 +218,7 @@ class Helper {
 							"siteTitle"
 						)} account verification link. You can use this l only once and it will auto expire after 5 minutes if not used.
 						</p>`;
-						break;
+					break;
 				default:
 					break;
 			}
@@ -232,7 +237,7 @@ class Helper {
 		var endTime = moment(end, "hh:mm");
 		if (endTime.isBefore(startTime)) {
 			endTime.add(1, "day");
-		} 
+		}
 		var timeStops = [];
 		while (startTime <= endTime) {
 			timeStops.push(moment(startTime).format("hh:mm A"));
@@ -256,42 +261,111 @@ class Helper {
 	}
 
 
-	async defaultEntry(){
-	
-		const user= await this.userService.findUserByRole('admin')
+	async defaultEntry() {
+
+		const user = await this.userService.findUserByRole('admin')
 		// console.log(user)
- 
-		type WithoutId = Omit<User, '_id'|"token">;
-		if(!user){
-			const admin:WithoutId =({
+
+		type WithoutId = Omit<User, '_id' | "token" | "forEach">;
+		if (!user) {
+			const admin: WithoutId = ({
 				name: config.get("admin.name"),
 				mobile: config.get("admin.mobile"),
 				email: config.get("admin.email"),
-				role:[{slug:config.get("admin.role")}]  ,
-				password:config.get("admin.password"),
-				status:true,
-				emailVarification:true,
-				mobileVarification:true
+				role: [{ slug: config.get("admin.role") }],
+				password: config.get("admin.password"),
+				status: true,
+				emailVarification: true,
+				mobileVarification: true
 
 			})
-		
-		
-		const defaultAdmin = this.userService.createUser(admin)
+
+
+			const defaultAdmin = this.userService.createUser(admin)
 
 
 		}
 
+
+
 	}
 
-	// async testing(){
-	// 	let hash = this.generateHash()
-	// 	console.log(hash)
+
+	async createPdf(user: User) {
+		console.log('hi')
+		var html = fs.readFileSync('./src/public/welcomeTemplates/offerLatter.html', 'utf8');
+		// var options = { format: 'Letter' };
+		const update = html.replace(/\%NAME%/g,`${user.name}`)
+		var options = {
+				format: "A3",
+				orientation: "portrait",
+				border: "10mm",
+				header: {
+					height: "45mm",
+					contents: '<div style="text-align: center;"></div>'
+				},
+				footer: {
+					height: "28mm",
+					contents: {
+						first: 'Cover page',
+						2: 'Second page', // Any page number is working. 1-based index
+						default: '<span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>', // fallback value
+						last: 'Last Page'
+					}
+				}
+			}
+
+		pdf.create(update,options).toFile(`./${user.name}.pdf`, function (err, res) {
+			if (err) return console.log(err);
+			console.log(res); // { filename: '/app/businesscard.pdf' }
+		})
+		// let html = fs.readFileSync('./src/public/welcomeTemplates/form.html', "utf-8")
+		// // let newValue = html.replace(/userName/gi,`${user.name}`)
+		// // const update= fs.writeFileSync(`./src/public/welcomeTemplates/form.html`, newValue)
+		// var options = {
+		// 	format: "A3",
+		// 	orientation: "portrait",
+		// 	border: "10mm",
+		// 	header: {
+		// 		height: "45mm",
+		// 		contents: '<div style="text-align: center;"></div>'
+		// 	},
+		// 	footer: {
+		// 		height: "28mm",
+		// 		contents: {
+		// 			first: 'Cover page',
+		// 			2: 'Second page', // Any page number is working. 1-based index
+		// 			default: '<span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>', // fallback value
+		// 			last: 'Last Page'
+		// 		}
+		// 	}
+		// };
+		// // var name = user.name
+		// var document = {
+		// 	html: html.replace(/\%TITLE%/g,user.name),
+		// 	// name:user.name,
+		// 	path: "./output.pdf",
+		// };
+		// pdf.create(document, options)
+		// .then((res) => {
+		// 	console.log(res);
+		// })
+		// .catch((error) => {
+		// 	console.error(error);
+		// });
+
+	}
+
+	// async updateFile(user:User){
+	// 	const copy= await fs.copyFile('./src/public/file/offerlatter.txt',`./src/public/file/welcome/${user.name}.txt`,(err)=>{
+	// 		console.log(err)
+	// 	})
+
+	// 	const file= fs.readFileSync(`./src/public/file/welcome/${user.name}.txt`)
+	// 	const fileToString= file.toString()
+	// 	let newValue = fileToString.replace(/userName/gi,`${user.name}`)
+	// 	const update= fs.writeFileSync(`./src/public/file/welcome/${user.name}.txt`, newValue)
 	// }
-
-	async setRoles(){
-		
-		
-	}
 
 }
 export default new Helper();

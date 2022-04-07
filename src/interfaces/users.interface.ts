@@ -1,5 +1,6 @@
 import { Document } from "mongoose";
 export interface User {
+  forEach(arg0: (user: any) => void);
 //   forEach(arg0: (user: any) => void);
     _id: string;
     // firstName: string;

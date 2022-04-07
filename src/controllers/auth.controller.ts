@@ -24,7 +24,7 @@ class AuthController {
 			if (userRole!=='admin')
 				throw new HttpException(
 					400,
-					MSG.ROLE_INVALID.replace("%role%",userData.role[0].slug)
+					MSG.ROLE_INVALID.replace("%role%","role")
 				);
 
 			// if (!["admin"].includes(userData.role))

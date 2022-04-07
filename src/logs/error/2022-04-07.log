@@ -1,0 +1,2 @@
+2022-04-07 11:53:35 error: [PATCH] /api/admin/user/update-role/%7Bid%7D >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "User"
+2022-04-07 11:55:25 error: [PATCH] /api/admin/user/update-role/%7Bid%7D >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "User"

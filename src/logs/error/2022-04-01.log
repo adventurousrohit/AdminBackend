@@ -1,0 +1,182 @@
+2022-04-01 11:47:21 error: [GET] /api/admin/users/export >> StatusCode:: 400, Message:: Required fields are missing
+2022-04-01 11:57:05 error: [GET] /api/admin/users/export >> StatusCode:: 400, Message:: Required fields are missing
+2022-04-01 11:58:10 error: uncaughtException: Unexpected token 'const'
+C:\rohit\backend\typescriptBackend\src\controllers\admin.controller.ts:164
+                const workbook = new exceljs_1.default.Workbook();
+                ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at compileFunction (<anonymous>)
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 11:58:14 error: uncaughtException: Unexpected token 'const'
+C:\rohit\backend\typescriptBackend\src\controllers\admin.controller.ts:164
+                const workbook = new exceljs_1.default.Workbook();
+                ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at compileFunction (<anonymous>)
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 11:58:21 error: uncaughtException: Unexpected token ';'
+C:\rohit\backend\typescriptBackend\src\controllers\admin.controller.ts:164
+                throw ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at compileFunction (<anonymous>)
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 11:58:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO)
+[7m   [0m [91m                                  ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO)
+[7m   [0m [91m                                  ~~~[0m
+
+    at createTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 11:58:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO)
+[7m   [0m [91m                                  ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO)
+[7m   [0m [91m                                  ~~~[0m
+
+    at createTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 11:58:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO_DATA)
+[7m   [0m [91m                                  ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m182[0m:[93m35[0m - [91merror[0m[90m TS1351: [0mAn identifier or keyword cannot immediately follow a numeric literal.
+
+[7m182[0m       throw new HttpException(409.MSG.NO_DATA)
+[7m   [0m [91m                                  ~~~[0m
+
+    at createTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 12:00:04 error: [GET] /api/admin/users/export >> StatusCode:: 400, Message:: Required fields are missing
+2022-04-01 12:23:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m179[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m179[0m       console.log(req.,"userRole")
+[7m   [0m [91m                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/admin.controller.ts[0m:[93m179[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m179[0m       console.log(req.,"userRole")
+[7m   [0m [91m                      ~[0m
+
+    at createTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:820:12)
+    at reportTSError (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:824:19)
+    at C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1292:34
+    at Object.compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1322:43)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1454:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\rohit\backend\typescriptBackend\src\routes\admin.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module.m._compile (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1455:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\rohit\AppData\Roaming\npm\node_modules\ts-node\src\index.ts:1458:12)
+2022-04-01 12:24:11 error: [GET] /api/admin/users/export >> StatusCode:: 400, Message:: Required fields are missing

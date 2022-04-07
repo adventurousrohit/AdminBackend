@@ -55,6 +55,7 @@ class App {
         .catch((error) =>
             logger.info(`${error}`)
 		);
+       
         Helper.defaultEntry()
         
     }
@@ -97,9 +98,10 @@ class App {
 	}
 
     private initializeRoutes(routes: Routes[]) {
-        routes.forEach((route) => {
+      routes.forEach((route) => {
             this.app.use("/", route.router);
         });
+        // console.log(route)
     }
 
     private initializeErrorHandling() {

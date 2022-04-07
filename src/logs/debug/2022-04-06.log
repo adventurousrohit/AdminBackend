@@ -1,0 +1,147 @@
+2022-04-06 10:25:36 info: =================================
+2022-04-06 10:25:36 info: ======= ENV: development =======
+2022-04-06 10:25:36 info: 🚀 App listening on the port 5000
+2022-04-06 10:25:36 info: =================================
+2022-04-06 10:25:56 info: [0mGET /api-docs/ [36m304[0m 7.968 ms - -[0m
+2022-04-06 10:25:56 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.576 ms - -[0m
+2022-04-06 10:25:56 info: [0mGET /api-docs/swagger-load.js [36m304[0m 3.932 ms - -[0m
+2022-04-06 10:25:56 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.176 ms - -[0m
+2022-04-06 10:25:56 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 5.281 ms - -[0m
+2022-04-06 10:25:56 info: [0mGET /swagger.yaml [36m304[0m 0.663 ms - -[0m
+2022-04-06 10:26:06 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 29.297 ms - -[0m
+2022-04-06 10:31:54 info: =================================
+2022-04-06 10:31:54 info: ======= ENV: development =======
+2022-04-06 10:31:54 info: 🚀 App listening on the port 5000
+2022-04-06 10:31:54 info: =================================
+2022-04-06 10:32:06 info: =================================
+2022-04-06 10:32:06 info: ======= ENV: development =======
+2022-04-06 10:32:06 info: 🚀 App listening on the port 5000
+2022-04-06 10:32:06 info: =================================
+2022-04-06 10:32:32 info: =================================
+2022-04-06 10:32:32 info: ======= ENV: development =======
+2022-04-06 10:32:32 info: 🚀 App listening on the port 5000
+2022-04-06 10:32:32 info: =================================
+2022-04-06 10:32:37 info: =================================
+2022-04-06 10:32:37 info: ======= ENV: development =======
+2022-04-06 10:32:37 info: 🚀 App listening on the port 5000
+2022-04-06 10:32:37 info: =================================
+2022-04-06 10:33:05 info: [0mGET /api-docs/ [36m304[0m 6.582 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.847 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.244 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.971 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /api-docs/swagger-load.js [36m304[0m 2.103 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /swagger.yaml [36m304[0m 0.711 ms - -[0m
+2022-04-06 10:33:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.631 ms - -[0m
+2022-04-06 10:33:24 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 18.804 ms - -[0m
+2022-04-06 10:44:47 info: =================================
+2022-04-06 10:44:47 info: ======= ENV: development =======
+2022-04-06 10:44:47 info: 🚀 App listening on the port 5000
+2022-04-06 10:44:47 info: =================================
+2022-04-06 10:44:53 info: [0mGET /api-docs/ [36m304[0m 5.866 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.490 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.640 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.808 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /api-docs/swagger-load.js [36m304[0m 3.297 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /swagger.yaml [36m304[0m 0.771 ms - -[0m
+2022-04-06 10:44:53 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.998 ms - -[0m
+2022-04-06 10:45:01 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 4523.527 ms - -[0m
+2022-04-06 10:46:31 info: =================================
+2022-04-06 10:46:31 info: ======= ENV: development =======
+2022-04-06 10:46:31 info: 🚀 App listening on the port 5000
+2022-04-06 10:46:31 info: =================================
+2022-04-06 10:47:01 info: =================================
+2022-04-06 10:47:01 info: ======= ENV: development =======
+2022-04-06 10:47:01 info: 🚀 App listening on the port 5000
+2022-04-06 10:47:01 info: =================================
+2022-04-06 10:47:13 info: =================================
+2022-04-06 10:47:13 info: ======= ENV: development =======
+2022-04-06 10:47:13 info: 🚀 App listening on the port 5000
+2022-04-06 10:47:13 info: =================================
+2022-04-06 10:47:19 info: [0mGET /api-docs/ [36m304[0m 8.660 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.691 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.785 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.532 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /api-docs/swagger-load.js [36m304[0m 3.085 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /swagger.yaml [36m304[0m 0.807 ms - -[0m
+2022-04-06 10:47:19 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.132 ms - -[0m
+2022-04-06 10:47:24 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 21.336 ms - -[0m
+2022-04-06 10:48:17 info: =================================
+2022-04-06 10:48:17 info: ======= ENV: development =======
+2022-04-06 10:48:17 info: 🚀 App listening on the port 5000
+2022-04-06 10:48:17 info: =================================
+2022-04-06 10:48:22 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 28.982 ms - -[0m
+2022-04-06 10:50:58 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 16.771 ms - -[0m
+2022-04-06 12:36:59 info: =================================
+2022-04-06 12:36:59 info: ======= ENV: development =======
+2022-04-06 12:36:59 info: 🚀 App listening on the port 5000
+2022-04-06 12:36:59 info: =================================
+2022-04-06 14:52:43 info: [0mGET /song [33m404[0m 10.952 ms - 143[0m
+2022-04-06 14:54:10 info: [0mGET / [33m404[0m 6.435 ms - 139[0m
+2022-04-06 17:39:27 info: =================================
+2022-04-06 17:39:27 info: ======= ENV: development =======
+2022-04-06 17:39:27 info: 🚀 App listening on the port 5000
+2022-04-06 17:39:27 info: =================================
+2022-04-06 17:39:34 info: [0mGET /api-docs [36m301[0m 9.702 ms - 183[0m
+2022-04-06 17:39:34 info: [0mGET /api-docs/ [32m200[0m 5.816 ms - 1021[0m
+2022-04-06 17:39:34 info: [0mGET /api-docs/swagger-load.js [32m200[0m 5.138 ms - 604[0m
+2022-04-06 17:39:34 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 17.926 ms - -[0m
+2022-04-06 17:39:34 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 17.929 ms - -[0m
+2022-04-06 17:39:34 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 17.785 ms - -[0m
+2022-04-06 17:39:34 info: [0mGET /swagger.yaml [32m200[0m 10.882 ms - -[0m
+2022-04-06 17:39:42 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [32m200[0m 42.563 ms - 18[0m
+2022-04-06 17:40:10 info: =================================
+2022-04-06 17:40:10 info: ======= ENV: development =======
+2022-04-06 17:40:10 info: 🚀 App listening on the port 5000
+2022-04-06 17:40:10 info: =================================
+2022-04-06 17:40:41 info: [0mGET /api-docs/ [36m304[0m 5.322 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.877 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.488 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.510 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /api-docs/swagger-load.js [36m304[0m 2.081 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /swagger.yaml [36m304[0m 0.802 ms - -[0m
+2022-04-06 17:40:41 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 3.762 ms - 628[0m
+2022-04-06 17:40:47 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 14.123 ms - -[0m
+2022-04-06 17:41:10 info: =================================
+2022-04-06 17:41:10 info: ======= ENV: development =======
+2022-04-06 17:41:10 info: 🚀 App listening on the port 5000
+2022-04-06 17:41:10 info: =================================
+2022-04-06 17:41:53 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 19.323 ms - -[0m
+2022-04-06 17:42:21 info: =================================
+2022-04-06 17:42:21 info: ======= ENV: development =======
+2022-04-06 17:42:21 info: 🚀 App listening on the port 5000
+2022-04-06 17:42:21 info: =================================
+2022-04-06 17:42:29 info: =================================
+2022-04-06 17:42:29 info: ======= ENV: development =======
+2022-04-06 17:42:29 info: 🚀 App listening on the port 5000
+2022-04-06 17:42:29 info: =================================
+2022-04-06 17:43:28 info: [0mGET /api-docs/ [36m304[0m 9.579 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.425 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 5.953 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.731 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /api-docs/swagger-load.js [36m304[0m 2.183 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /swagger.yaml [36m304[0m 0.624 ms - -[0m
+2022-04-06 17:43:28 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.824 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/ [36m304[0m 0.769 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 4.183 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.122 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.383 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/swagger-load.js [36m304[0m 2.092 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /swagger.yaml [36m304[0m 0.961 ms - -[0m
+2022-04-06 17:43:42 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.271 ms - -[0m
+2022-04-06 17:43:48 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 14.381 ms - -[0m
+2022-04-06 17:44:22 info: =================================
+2022-04-06 17:44:22 info: ======= ENV: development =======
+2022-04-06 17:44:22 info: 🚀 App listening on the port 5000
+2022-04-06 17:44:22 info: =================================
+2022-04-06 17:44:24 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 15.413 ms - -[0m
+2022-04-06 17:44:59 info: =================================
+2022-04-06 17:44:59 info: ======= ENV: development =======
+2022-04-06 17:44:59 info: 🚀 App listening on the port 5000
+2022-04-06 17:44:59 info: =================================
+2022-04-06 17:45:08 info: =================================
+2022-04-06 17:45:08 info: ======= ENV: development =======
+2022-04-06 17:45:08 info: 🚀 App listening on the port 5000
+2022-04-06 17:45:08 info: =================================
+2022-04-06 17:45:16 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=624595fb4bebb40d28f8d7db [36m304[0m 4921.742 ms - -[0m
+2022-04-06 17:48:27 info: [0mGET /api/admin/user-details/employee [32m200[0m 18.589 ms - 952[0m
+2022-04-06 17:48:45 info: [0mGET /api/admin/users/gererate-docs?type=welcome-letter&id=62458c63ac76c81e747e26cd [32m200[0m 14.290 ms - 18[0m
